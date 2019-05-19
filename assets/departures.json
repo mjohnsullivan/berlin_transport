@@ -1,0 +1,1817 @@
+[
+    {
+        "tripId": "1|30293|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100703",
+            "name": "S+U Alexanderplatz [U2]",
+            "location": {
+                "type": "location",
+                "latitude": 52.522075,
+                "longitude": 13.413596
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:35:00.000+02:00",
+        "direction": "U Ruhleben",
+        "line": {
+            "type": "line",
+            "id": "u2",
+            "fahrtNr": "13888",
+            "name": "U2",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 2,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 30293,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|30771|19|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100704",
+            "name": "S+U Alexanderplatz [U5]",
+            "location": {
+                "type": "location",
+                "latitude": 52.521607,
+                "longitude": 13.41311
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:35:00.000+02:00",
+        "direction": "U Hönow",
+        "line": {
+            "type": "line",
+            "id": "u5",
+            "fahrtNr": "16403",
+            "name": "U5",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 5,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 30771,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|28556|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100030",
+            "name": "Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.524214,
+                "longitude": 13.412193
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:35:00.000+02:00",
+        "direction": "Heinersdorf",
+        "line": {
+            "type": "line",
+            "id": "m2",
+            "fahrtNr": "10102",
+            "name": "M2",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 2,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28556,
+        "delay": 60,
+        "platform": null
+    },
+    {
+        "tripId": "1|28749|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100026",
+            "name": "S+U Alexanderplatz/Gontardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521059,
+                "longitude": 13.41125
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:35:00.000+02:00",
+        "direction": "Hohenschönhausen, Zingster Str.",
+        "line": {
+            "type": "line",
+            "id": "m4",
+            "fahrtNr": "10711",
+            "name": "M4",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 4,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28749,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|31454|25|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100705",
+            "name": "S+U Alexanderplatz [U8]",
+            "location": {
+                "type": "location",
+                "latitude": 52.521616,
+                "longitude": 13.412121
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:36:00.000+02:00",
+        "direction": "S+U Wittenau",
+        "line": {
+            "type": "line",
+            "id": "u8",
+            "fahrtNr": "21033",
+            "name": "U8",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 8,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 31454,
+        "delay": -60,
+        "platform": null
+    },
+    {
+        "tripId": "1|647|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:36:00.000+02:00",
+        "direction": "Brandenburg, Hbf",
+        "line": {
+            "type": "line",
+            "id": "re1",
+            "fahrtNr": "776",
+            "name": "RE1",
+            "public": true,
+            "class": 64,
+            "productCode": 6,
+            "mode": "train",
+            "product": "regional",
+            "operator": {
+                "type": "operator",
+                "id": "db-regio-ag",
+                "name": "DB Regio AG"
+            },
+            "symbol": "RE",
+            "nr": 1,
+            "metro": false,
+            "express": true,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "hint",
+                "code": "SN",
+                "text": "SnackPoint/Snacks on board the train"
+            },
+            {
+                "type": "hint",
+                "code": "ZM",
+                "text": "Boarding aid in the middle section of the train"
+            }
+        ],
+        "trip": 647,
+        "delay": 180,
+        "platform": "2"
+    },
+    {
+        "tripId": "1|4901|4|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:37:00.000+02:00",
+        "direction": "S+U Zoologischer Garten",
+        "line": {
+            "type": "line",
+            "id": "100",
+            "fahrtNr": "10226",
+            "name": "100",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": null,
+            "nr": 100,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 4901,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|62300|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100026",
+            "name": "S+U Alexanderplatz/Gontardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521059,
+                "longitude": 13.41125
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:37:00.000+02:00",
+        "direction": "Hohenschönhausen, Zingster Str.",
+        "line": {
+            "type": "line",
+            "id": "m5",
+            "fahrtNr": "4506",
+            "name": "M5",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 5,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free (S+U Alexanderplatz Bhf/Gontardstr. (Berlin) - Landsberger Allee/Petersburger Str. (Berlin))"
+            }
+        ],
+        "trip": 62300,
+        "delay": 60,
+        "platform": null
+    },
+    {
+        "tripId": "1|28696|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100026",
+            "name": "S+U Alexanderplatz/Gontardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521059,
+                "longitude": 13.41125
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:38:00.000+02:00",
+        "direction": "S Hackescher Markt",
+        "line": {
+            "type": "line",
+            "id": "m4",
+            "fahrtNr": "10641",
+            "name": "M4",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 4,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28696,
+        "delay": 60,
+        "platform": null
+    },
+    {
+        "tripId": "1|62295|2|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100026",
+            "name": "S+U Alexanderplatz/Gontardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521059,
+                "longitude": 13.41125
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:38:00.000+02:00",
+        "direction": "S Hackescher Markt",
+        "line": {
+            "type": "line",
+            "id": "m6",
+            "fahrtNr": "4459",
+            "name": "M6",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 6,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 62295,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|24215|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:39:00.000+02:00",
+        "direction": "Mitte, Memhardstr.",
+        "line": {
+            "type": "line",
+            "id": "txl",
+            "fahrtNr": "41558",
+            "name": "TXL",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "TXL",
+            "nr": null,
+            "metro": true,
+            "express": true,
+            "night": true
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 24215,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|24260|16|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:39:00.000+02:00",
+        "direction": "Flughafen Tegel Airport",
+        "line": {
+            "type": "line",
+            "id": "txl",
+            "fahrtNr": "41641",
+            "name": "TXL",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "TXL",
+            "nr": null,
+            "metro": true,
+            "express": true,
+            "night": true
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 24260,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|30395|14|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100703",
+            "name": "S+U Alexanderplatz [U2]",
+            "location": {
+                "type": "location",
+                "latitude": 52.522075,
+                "longitude": 13.413596
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:39:00.000+02:00",
+        "direction": "S+U Pankow",
+        "line": {
+            "type": "line",
+            "id": "u2",
+            "fahrtNr": "12846",
+            "name": "U2",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 2,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 30395,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|31391|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100705",
+            "name": "S+U Alexanderplatz [U8]",
+            "location": {
+                "type": "location",
+                "latitude": 52.521616,
+                "longitude": 13.412121
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:40:00.000+02:00",
+        "direction": "S+U Hermannstr.",
+        "line": {
+            "type": "line",
+            "id": "u8",
+            "fahrtNr": "21515",
+            "name": "U8",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 8,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 31391,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|34212|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:41:00.000+02:00",
+        "direction": "S Potsdam Hauptbahnhof",
+        "line": {
+            "type": "line",
+            "id": "s7",
+            "fahrtNr": "22573",
+            "name": "S7",
+            "public": true,
+            "class": 1,
+            "productCode": 0,
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+                "type": "operator",
+                "id": "s-bahn-berlin-gmbh",
+                "name": "S-Bahn Berlin GmbH"
+            },
+            "symbol": "S",
+            "nr": 7,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "warning",
+                "summary": "Information.",
+                "text": "Nach einer Signalstörung in Tiergarten kann es in der Folge noch zu Verspätungen und einzelnen Ausfällen kommen. Wir bitten um Entschuldigung.",
+                "priority": 17,
+                "category": null,
+                "validFrom": "2019-05-19T19:53:00.000+02:00",
+                "validUntil": "2019-05-19T23:59:00.000+02:00",
+                "modified": "2019-05-19T20:57:38.000+02:00"
+            },
+            {
+                "type": "status",
+                "code": "text.realtime.journey.partially.cancelled.in",
+                "text": "S7: Journey is cancelled in S Potsdam Hauptbahnhof. We recommend checking any other connection for travelling."
+            }
+        ],
+        "trip": 34212,
+        "delay": 60,
+        "platform": "4"
+    },
+    {
+        "tripId": "1|13472|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:42:00.000+02:00",
+        "direction": "S+U Zoologischer Garten via Potsdamer Platz",
+        "line": {
+            "type": "line",
+            "id": "200",
+            "fahrtNr": "24284",
+            "name": "200",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": null,
+            "nr": 200,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 13472,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|28546|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100024",
+            "name": "S+U Alexanderplatz/Dircksenstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521823,
+                "longitude": 13.411232
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:42:00.000+02:00",
+        "direction": "Am Steinberg",
+        "line": {
+            "type": "line",
+            "id": "m2",
+            "fahrtNr": "10092",
+            "name": "M2",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 2,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28546,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|32970|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:42:00.000+02:00",
+        "direction": "S Erkner",
+        "line": {
+            "type": "line",
+            "id": "s3",
+            "fahrtNr": "16808",
+            "name": "S3",
+            "public": true,
+            "class": 1,
+            "productCode": 0,
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+                "type": "operator",
+                "id": "s-bahn-berlin-gmbh",
+                "name": "S-Bahn Berlin GmbH"
+            },
+            "symbol": "S",
+            "nr": 3,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "warning",
+                "summary": "Information.",
+                "text": "Nach einer Signalstörung in Tiergarten kann es in der Folge noch zu Verspätungen und einzelnen Ausfällen kommen. Wir bitten um Entschuldigung.",
+                "priority": 17,
+                "category": null,
+                "validFrom": "2019-05-19T19:53:00.000+02:00",
+                "validUntil": "2019-05-19T23:59:00.000+02:00",
+                "modified": "2019-05-19T20:57:38.000+02:00"
+            }
+        ],
+        "trip": 32970,
+        "delay": 0,
+        "platform": "3"
+    },
+    {
+        "tripId": "1|41301|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:43:00.000+02:00",
+        "direction": "Wismar, Bhf",
+        "line": {
+            "type": "line",
+            "id": "re2",
+            "fahrtNr": "63991",
+            "name": "RE2",
+            "public": true,
+            "class": 64,
+            "productCode": 6,
+            "mode": "train",
+            "product": "regional",
+            "operator": {
+                "type": "operator",
+                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+            },
+            "symbol": "RE",
+            "nr": 2,
+            "metro": false,
+            "express": true,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "hint",
+                "code": "od",
+                "text": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio"
+            }
+        ],
+        "trip": 41301,
+        "delay": 1560,
+        "platform": "2"
+    },
+    {
+        "tripId": "1|32943|39|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:43:00.000+02:00",
+        "direction": "S Spandau",
+        "line": {
+            "type": "line",
+            "id": "s3",
+            "fahrtNr": "16993",
+            "name": "S3",
+            "public": true,
+            "class": 1,
+            "productCode": 0,
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+                "type": "operator",
+                "id": "s-bahn-berlin-gmbh",
+                "name": "S-Bahn Berlin GmbH"
+            },
+            "symbol": "S",
+            "nr": 3,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "warning",
+                "summary": "Information.",
+                "text": "Nach einer Signalstörung in Tiergarten kann es in der Folge noch zu Verspätungen und einzelnen Ausfällen kommen. Wir bitten um Entschuldigung.",
+                "priority": 17,
+                "category": null,
+                "validFrom": "2019-05-19T19:53:00.000+02:00",
+                "validUntil": "2019-05-19T23:59:00.000+02:00",
+                "modified": "2019-05-19T20:57:38.000+02:00"
+            }
+        ],
+        "trip": 32943,
+        "delay": 0,
+        "platform": "4"
+    },
+    {
+        "tripId": "1|41343|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:44:00.000+02:00",
+        "direction": "Cottbus, Hbf",
+        "line": {
+            "type": "line",
+            "id": "re2",
+            "fahrtNr": "63992",
+            "name": "RE2",
+            "public": true,
+            "class": 64,
+            "productCode": 6,
+            "mode": "train",
+            "product": "regional",
+            "operator": {
+                "type": "operator",
+                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+            },
+            "symbol": "RE",
+            "nr": 2,
+            "metro": false,
+            "express": true,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "hint",
+                "code": "od",
+                "text": "Fahrradmitnahme leicht gemacht: www.vbb.de/radimregio"
+            }
+        ],
+        "trip": 41343,
+        "delay": 60,
+        "platform": "1"
+    },
+    {
+        "tripId": "1|13430|2|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:44:00.000+02:00",
+        "direction": "Prenzlauer Berg, Michelangelostr.",
+        "line": {
+            "type": "line",
+            "id": "200",
+            "fahrtNr": "24234",
+            "name": "200",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": null,
+            "nr": 200,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 13430,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|28546|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100030",
+            "name": "Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.524214,
+                "longitude": 13.412193
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:44:00.000+02:00",
+        "direction": "Am Steinberg",
+        "line": {
+            "type": "line",
+            "id": "m2",
+            "fahrtNr": "10092",
+            "name": "M2",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 2,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28546,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|24215|2|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "Mitte, Memhardstr.",
+        "line": {
+            "type": "line",
+            "id": "txl",
+            "fahrtNr": "41558",
+            "name": "TXL",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "TXL",
+            "nr": null,
+            "metro": true,
+            "express": true,
+            "night": true
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 24215,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|24260|17|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100031",
+            "name": "S+U Alexanderplatz/Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.523099,
+                "longitude": 13.410962
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "Flughafen Tegel Airport",
+        "line": {
+            "type": "line",
+            "id": "txl",
+            "fahrtNr": "41641",
+            "name": "TXL",
+            "public": true,
+            "class": 8,
+            "productCode": 3,
+            "mode": "bus",
+            "product": "bus",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "TXL",
+            "nr": null,
+            "metro": true,
+            "express": true,
+            "night": true
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            }
+        ],
+        "trip": 24260,
+        "delay": null,
+        "platform": null
+    },
+    {
+        "tripId": "1|28722|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100026",
+            "name": "S+U Alexanderplatz/Gontardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.521059,
+                "longitude": 13.41125
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "Falkenberg",
+        "line": {
+            "type": "line",
+            "id": "m4",
+            "fahrtNr": "10674",
+            "name": "M4",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 4,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28722,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|30293|1|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100703",
+            "name": "S+U Alexanderplatz [U2]",
+            "location": {
+                "type": "location",
+                "latitude": 52.522075,
+                "longitude": 13.413596
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "U Ruhleben",
+        "line": {
+            "type": "line",
+            "id": "u2",
+            "fahrtNr": "13887",
+            "name": "U2",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 2,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 30293,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|30771|20|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100704",
+            "name": "S+U Alexanderplatz [U5]",
+            "location": {
+                "type": "location",
+                "latitude": 52.521607,
+                "longitude": 13.41311
+            },
+            "products": {
+                "suburban": false,
+                "subway": true,
+                "tram": false,
+                "bus": false,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "U Hönow",
+        "line": {
+            "type": "line",
+            "id": "u5",
+            "fahrtNr": "16404",
+            "name": "U5",
+            "public": true,
+            "class": 2,
+            "productCode": 1,
+            "mode": "train",
+            "product": "subway",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "U",
+            "nr": 5,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 30771,
+        "delay": 0,
+        "platform": null
+    },
+    {
+        "tripId": "1|34345|0|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100003",
+            "name": "S+U Alexanderplatz",
+            "location": {
+                "type": "location",
+                "latitude": 52.521508,
+                "longitude": 13.411267
+            },
+            "products": {
+                "suburban": true,
+                "subway": false,
+                "tram": false,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": true
+            }
+        },
+        "when": "2019-05-19T21:45:00.000+02:00",
+        "direction": "S Ahrensfelde",
+        "line": {
+            "type": "line",
+            "id": "s7",
+            "fahrtNr": "22174",
+            "name": "S7",
+            "public": true,
+            "class": 1,
+            "productCode": 0,
+            "mode": "train",
+            "product": "suburban",
+            "operator": {
+                "type": "operator",
+                "id": "s-bahn-berlin-gmbh",
+                "name": "S-Bahn Berlin GmbH"
+            },
+            "symbol": "S",
+            "nr": 7,
+            "metro": false,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            },
+            {
+                "type": "warning",
+                "summary": "Information.",
+                "text": "Nach einer Signalstörung in Tiergarten kann es in der Folge noch zu Verspätungen und einzelnen Ausfällen kommen. Wir bitten um Entschuldigung.",
+                "priority": 17,
+                "category": null,
+                "validFrom": "2019-05-19T19:53:00.000+02:00",
+                "validUntil": "2019-05-19T23:59:00.000+02:00",
+                "modified": "2019-05-19T20:57:38.000+02:00"
+            }
+        ],
+        "trip": 34345,
+        "delay": 0,
+        "platform": "3"
+    },
+    {
+        "tripId": "1|28523|7|86|19052019",
+        "stop": {
+            "type": "stop",
+            "id": "900000100030",
+            "name": "Memhardstr.",
+            "location": {
+                "type": "location",
+                "latitude": 52.524214,
+                "longitude": 13.412193
+            },
+            "products": {
+                "suburban": false,
+                "subway": false,
+                "tram": true,
+                "bus": true,
+                "ferry": false,
+                "express": false,
+                "regional": false
+            }
+        },
+        "when": "2019-05-19T21:46:00.000+02:00",
+        "direction": "S+U Alexanderplatz",
+        "line": {
+            "type": "line",
+            "id": "m2",
+            "fahrtNr": "9928",
+            "name": "M2",
+            "public": true,
+            "class": 4,
+            "productCode": 2,
+            "mode": "train",
+            "product": "tram",
+            "operator": {
+                "type": "operator",
+                "id": "berliner-verkehrsbetriebe",
+                "name": "Berliner Verkehrsbetriebe"
+            },
+            "symbol": "M",
+            "nr": 2,
+            "metro": true,
+            "express": false,
+            "night": false
+        },
+        "remarks": [
+            {
+                "type": "hint",
+                "code": "bf",
+                "text": "barrier-free"
+            },
+            {
+                "type": "hint",
+                "code": "FB",
+                "text": "Bicycle conveyance"
+            }
+        ],
+        "trip": 28523,
+        "delay": 120,
+        "platform": null
+    }
+]

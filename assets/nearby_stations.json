@@ -1,0 +1,1022 @@
+[
+    {
+        "type": "stop",
+        "id": "900000100031",
+        "name": "S+U Alexanderplatz/Memhardstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.523099,
+            "longitude": 13.410962
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 49
+    },
+    {
+        "type": "stop",
+        "id": "900000100030",
+        "name": "Memhardstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.524214,
+            "longitude": 13.412193
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 100
+    },
+    {
+        "type": "stop",
+        "id": "900000100024",
+        "name": "S+U Alexanderplatz/Dircksenstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.521823,
+            "longitude": 13.411232
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 179
+    },
+    {
+        "type": "stop",
+        "id": "900000100705",
+        "name": "S+U Alexanderplatz [U8]",
+        "location": {
+            "type": "location",
+            "latitude": 52.521616,
+            "longitude": 13.412121
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 207
+    },
+    {
+        "type": "stop",
+        "id": "900000100703",
+        "name": "S+U Alexanderplatz [U2]",
+        "location": {
+            "type": "location",
+            "latitude": 52.522075,
+            "longitude": 13.413596
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 210
+    },
+    {
+        "type": "stop",
+        "id": "900000100003",
+        "name": "S+U Alexanderplatz",
+        "location": {
+            "type": "location",
+            "latitude": 52.521508,
+            "longitude": 13.411267
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": true
+        },
+        "distance": 214
+    },
+    {
+        "type": "stop",
+        "id": "900000100707",
+        "name": "U Alexanderplatz [Bus]",
+        "location": {
+            "type": "location",
+            "latitude": 52.522884,
+            "longitude": 13.414683
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 227
+    },
+    {
+        "type": "stop",
+        "id": "900000100704",
+        "name": "S+U Alexanderplatz [U5]",
+        "location": {
+            "type": "location",
+            "latitude": 52.521607,
+            "longitude": 13.41311
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 232
+    },
+    {
+        "type": "stop",
+        "id": "900000100005",
+        "name": "U Alexanderplatz [Tram]",
+        "location": {
+            "type": "location",
+            "latitude": 52.522389,
+            "longitude": 13.414495
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 237
+    },
+    {
+        "type": "stop",
+        "id": "900000100026",
+        "name": "S+U Alexanderplatz/Gontardstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.521059,
+            "longitude": 13.41125
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 264
+    },
+    {
+        "type": "stop",
+        "id": "900000100708",
+        "name": "S+U Alexanderplatz [Bus K.-Liebknecht-Str]",
+        "location": {
+            "type": "location",
+            "latitude": 52.52211,
+            "longitude": 13.408661
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 273
+    },
+    {
+        "type": "stop",
+        "id": "900000100711",
+        "name": "S+U Alexanderpl./Grunerstr [Grunerstr.]",
+        "location": {
+            "type": "location",
+            "latitude": 52.52016,
+            "longitude": 13.413892
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 382
+    },
+    {
+        "type": "stop",
+        "id": "900000100006",
+        "name": "S+U Alexanderplatz/Grunerstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.520412,
+            "longitude": 13.414432
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 392
+    },
+    {
+        "type": "stop",
+        "id": "900000100712",
+        "name": "S+U Alexanderpl./Grunerstr [Alexanderstr.]",
+        "location": {
+            "type": "location",
+            "latitude": 52.519971,
+            "longitude": 13.416122
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 450
+    },
+    {
+        "type": "stop",
+        "id": "900000100560",
+        "name": "Littenstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.519656,
+            "longitude": 13.41365
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 466
+    },
+    {
+        "type": "stop",
+        "id": "900000100051",
+        "name": "U Weinmeisterstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.525374,
+            "longitude": 13.405308
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 467
+    },
+    {
+        "type": "stop",
+        "id": "900000110022",
+        "name": "Mollstr./Prenzlauer Allee",
+        "location": {
+            "type": "location",
+            "latitude": 52.526866,
+            "longitude": 13.41596
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 489
+    },
+    {
+        "type": "stop",
+        "id": "900000100016",
+        "name": "U Rosa-Luxemburg-Platz",
+        "location": {
+            "type": "location",
+            "latitude": 52.528187,
+            "longitude": 13.410405
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 533
+    },
+    {
+        "type": "stop",
+        "id": "900000100080",
+        "name": "U Weinmeisterstr./Gipsstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.52549,
+            "longitude": 13.403528
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 582
+    },
+    {
+        "type": "stop",
+        "id": "900000100515",
+        "name": "Spandauer Str./Marienkirche",
+        "location": {
+            "type": "location",
+            "latitude": 52.520025,
+            "longitude": 13.404822
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 586
+    },
+    {
+        "type": "stop",
+        "id": "900000100040",
+        "name": "Mollstr./Otto-Braun-Str.",
+        "location": {
+            "type": "location",
+            "latitude": 52.525185,
+            "longitude": 13.419942
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 607
+    },
+    {
+        "type": "stop",
+        "id": "900000100002",
+        "name": "S Hackescher Markt",
+        "location": {
+            "type": "location",
+            "latitude": 52.522605,
+            "longitude": 13.402359
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 621
+    },
+    {
+        "type": "stop",
+        "id": "900000100015",
+        "name": "U Klosterstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.517229,
+            "longitude": 13.412454
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 693
+    },
+    {
+        "type": "stop",
+        "id": "900000100045",
+        "name": "Berliner Rathaus",
+        "location": {
+            "type": "location",
+            "latitude": 52.517247,
+            "longitude": 13.408876
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 709
+    },
+    {
+        "type": "stop",
+        "id": "900000100518",
+        "name": "Alexanderstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.517742,
+            "longitude": 13.418126
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 778
+    },
+    {
+        "type": "stop",
+        "id": "900000100017",
+        "name": "U Schillingstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.520313,
+            "longitude": 13.421893
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 788
+    },
+    {
+        "type": "stop",
+        "id": "900000100539",
+        "name": "Nikolaiviertel",
+        "location": {
+            "type": "location",
+            "latitude": 52.515944,
+            "longitude": 13.407717
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 831
+    },
+    {
+        "type": "stop",
+        "id": "900000100512",
+        "name": "Monbijouplatz",
+        "location": {
+            "type": "location",
+            "latitude": 52.523657,
+            "longitude": 13.398476
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 877
+    },
+    {
+        "type": "stop",
+        "id": "900000100537",
+        "name": "Lustgarten",
+        "location": {
+            "type": "location",
+            "latitude": 52.518011,
+            "longitude": 13.40031
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 964
+    },
+    {
+        "type": "stop",
+        "id": "900000100023",
+        "name": "U Rosenthaler Platz",
+        "location": {
+            "type": "location",
+            "latitude": 52.529778,
+            "longitude": 13.401397
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 979
+    },
+    {
+        "type": "stop",
+        "id": "900000100004",
+        "name": "S+U Jannowitzbrücke",
+        "location": {
+            "type": "location",
+            "latitude": 52.515503,
+            "longitude": 13.418027
+        },
+        "products": {
+            "suburban": true,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 988
+    },
+    {
+        "type": "stop",
+        "id": "900000110506",
+        "name": "Prenzlauer Allee/Metzer Str.",
+        "location": {
+            "type": "location",
+            "latitude": 52.531028,
+            "longitude": 13.419385
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1001
+    },
+    {
+        "type": "stop",
+        "id": "900000110005",
+        "name": "U Senefelderplatz",
+        "location": {
+            "type": "location",
+            "latitude": 52.532619,
+            "longitude": 13.412625
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1025
+    },
+    {
+        "type": "stop",
+        "id": "900000100531",
+        "name": "Neumannsgasse",
+        "location": {
+            "type": "location",
+            "latitude": 52.515189,
+            "longitude": 13.403995
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1046
+    },
+    {
+        "type": "stop",
+        "id": "900000110019",
+        "name": "Am Friedrichshain",
+        "location": {
+            "type": "location",
+            "latitude": 52.528016,
+            "longitude": 13.425138
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1058
+    },
+    {
+        "type": "stop",
+        "id": "900000120511",
+        "name": "Büschingstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.523126,
+            "longitude": 13.427214
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1068
+    },
+    {
+        "type": "stop",
+        "id": "900000100526",
+        "name": "Fischerinsel",
+        "location": {
+            "type": "location",
+            "latitude": 52.514056,
+            "longitude": 13.405856
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1109
+    },
+    {
+        "type": "stop",
+        "id": "900000100726",
+        "name": "Fischerinsel.",
+        "location": {
+            "type": "location",
+            "latitude": 52.513571,
+            "longitude": 13.406449
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1147
+    },
+    {
+        "type": "stop",
+        "id": "900000100038",
+        "name": "Am Kupfergraben",
+        "location": {
+            "type": "location",
+            "latitude": 52.519414,
+            "longitude": 13.395393
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1174
+    },
+    {
+        "type": "stop",
+        "id": "900000120510",
+        "name": "Weinstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.526066,
+            "longitude": 13.428796
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1210
+    },
+    {
+        "type": "stop",
+        "id": "900000100541",
+        "name": "Georgenstr./Am Kupfergraben",
+        "location": {
+            "type": "location",
+            "latitude": 52.520214,
+            "longitude": 13.393487
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1214
+    },
+    {
+        "type": "stop",
+        "id": "900000100007",
+        "name": "S Oranienburger Str.",
+        "location": {
+            "type": "location",
+            "latitude": 52.525158,
+            "longitude": 13.393064
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1258
+    },
+    {
+        "type": "stop",
+        "id": "900000110507",
+        "name": "Knaackstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.53323,
+            "longitude": 13.420724
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1258
+    },
+    {
+        "type": "stop",
+        "id": "900000100014",
+        "name": "U Märkisches Museum",
+        "location": {
+            "type": "location",
+            "latitude": 52.512007,
+            "longitude": 13.408768
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1283
+    },
+    {
+        "type": "stop",
+        "id": "900000100008",
+        "name": "U Heinrich-Heine-Str.",
+        "location": {
+            "type": "location",
+            "latitude": 52.510856,
+            "longitude": 13.416167
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1435
+    },
+    {
+        "type": "stop",
+        "id": "900000100013",
+        "name": "U Spittelmarkt",
+        "location": {
+            "type": "location",
+            "latitude": 52.511305,
+            "longitude": 13.40235
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1482
+    },
+    {
+        "type": "stop",
+        "id": "900000120006",
+        "name": "U Strausberger Platz",
+        "location": {
+            "type": "location",
+            "latitude": 52.518029,
+            "longitude": 13.432212
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1529
+    },
+    {
+        "type": "stop",
+        "id": "900000100012",
+        "name": "U Hausvogteiplatz",
+        "location": {
+            "type": "location",
+            "latitude": 52.513364,
+            "longitude": 13.395348
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1562
+    },
+    {
+        "type": "stop",
+        "id": "900000100019",
+        "name": "U Oranienburger Tor",
+        "location": {
+            "type": "location",
+            "latitude": 52.525167,
+            "longitude": 13.38759
+        },
+        "products": {
+            "suburban": false,
+            "subway": true,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1625
+    },
+    {
+        "type": "stop",
+        "id": "900000100001",
+        "name": "S+U Friedrichstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.520268,
+            "longitude": 13.387149
+        },
+        "products": {
+            "suburban": true,
+            "subway": true,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": true
+        },
+        "distance": 1681
+    },
+    {
+        "type": "stop",
+        "id": "900000007104",
+        "name": "S Nordbahnhof",
+        "location": {
+            "type": "location",
+            "latitude": 52.531675,
+            "longitude": 13.388794
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "distance": 1785
+    }
+]

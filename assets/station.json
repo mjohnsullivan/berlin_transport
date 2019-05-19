@@ -1,0 +1,19 @@
+{
+    "type": "stop",
+    "id": "900000100031",
+    "name": "S+U Alexanderplatz/Memhardstr.",
+    "location": {
+        "type": "location",
+        "latitude": 52.523099,
+        "longitude": 13.410962
+    },
+    "products": {
+        "suburban": false,
+        "subway": false,
+        "tram": false,
+        "bus": true,
+        "ferry": false,
+        "express": false,
+        "regional": false
+    }
+}

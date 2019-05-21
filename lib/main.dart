@@ -2,7 +2,10 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:berlin_transport/localization.dart';
 import 'package:flutter/material.dart';
+
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'package:berlin_transport/api.dart';
 
@@ -12,7 +15,16 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Berlin Transport Demo',
+      onGenerateTitle: (context) => AppLocalizations.of(context).title,
+      localizationsDelegates: [
+        const AppLocalizationsDelegate(),
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      supportedLocales: [
+        const Locale('en'),
+        const Locale('de'),
+      ],
       home: BerlinTransportPage(),
     );
   }
@@ -21,6 +33,25 @@ class MyApp extends StatelessWidget {
 class BerlinTransportPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Text('Berlin Transport Demo'));
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(AppLocalizations.of(context).title),
+      ),
+      body: Center(
+        child: SearchBox(),
+      ),
+    );
+  }
+}
+
+class SearchBox extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return TextField(
+      decoration: InputDecoration(
+        border: InputBorder.none,
+        hintText: AppLocalizations.of(context).searchHintText,
+      ),
+    );
   }
 }

@@ -5,9 +5,12 @@
 /// See https://github.com/derhuerst/bvg-rest/blob/master/docs/index.md
 /// for api info
 
+import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
+
+import 'package:berlin_transport/data.dart';
 
 class LatLng {
   const LatLng({this.lat, this.lng});
@@ -54,12 +57,15 @@ Future<String> journey(int fromId, int toId) async {
   return _fetchData(url);
 }
 
-/// Searches for a location given a query string
+/// Searches for locations given a query string
 ///
 /// curl 'https://1.bvg.transport.rest/locations?query=citycube'
-Future<String> location(String query) async {
+Future<List<Place>> locations(String query) async {
   final url = urlPrefix + '/locations?query=$query' + '&stationLines=true';
-  return _fetchData(url);
+  final body = await _fetchData(url);
+  return (json.decode(body) as List)
+      .map<Place>((p) => Place.fromJson(p))
+      .toList();
 }
 
 /// Fetches data from a url over http

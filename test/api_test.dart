@@ -27,9 +27,9 @@ void main() {
     print(res);
   });
 
-  test('location returns a result', () async {
+  test('locations returns a result', () async {
     final query = 'citycube';
-    final res = await location(query);
+    final res = await locations(query);
     print(res);
   });
 }

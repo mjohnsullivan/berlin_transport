@@ -13,9 +13,9 @@ void main() {
       'latitude': 23.0,
       'longitude': 45,
     };
-    final location = Location.fromJson(jsonMap);
+    final location = Place.fromJson(jsonMap);
 
-    expect(location.id, 45);
+    expect(location.id, '45');
     expect(location.name, 'somewhere');
     expect(location.coordinates.lat, 23.0);
     expect(location.coordinates.lng, 45.0);
@@ -40,7 +40,7 @@ void main() {
 
     final line = Line.fromJson(jsonMap);
 
-    expect(line.id, 400);
+    expect(line.id, '400');
     expect(line.name, '400');
     expect(line.type, StopType.bus);
   });
@@ -100,7 +100,7 @@ void main() {
 
     final stop = Stop.fromJson(jsonMap);
 
-    expect(stop.id, 55);
+    expect(stop.id, '55');
     expect(stop.name, 'bus stop');
     expect(stop.coordinates.lat, 132.786);
     expect(stop.coordinates.lng, 1.0);
@@ -111,10 +111,10 @@ void main() {
 
     // Check the lines
     expect(stop.lines.length, 2);
-    expect(stop.lines[0].id, 400);
+    expect(stop.lines[0].id, '400');
     expect(stop.lines[0].name, '400');
     expect(stop.lines[0].type, StopType.bus);
-    expect(stop.lines[1].id, 401);
+    expect(stop.lines[1].id, '401');
     expect(stop.lines[1].name, '401');
     expect(stop.lines[1].type, StopType.subway);
   });

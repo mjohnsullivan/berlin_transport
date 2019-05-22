@@ -9,40 +9,43 @@ class LatLng {
 }
 
 /// Data type for locations
-class Location {
-  const Location({@required this.id, this.name, this.coordinates});
-  final int id;
+class Place {
+  const Place({@required this.id, this.name, this.coordinates});
+  final String id;
   final String name;
   final LatLng coordinates;
 
-  factory Location.fromJson(Map<String, dynamic> json) {
-    assert(json.containsKey('type') && json['type'] == 'location');
-    return Location(
-      id: int.parse(json['id'] as String),
-      name: json['name'] as String,
-      coordinates: LatLng(
-        lat: (json['latitude'] as num).toDouble(),
-        lng: (json['longitude'] as num).toDouble(),
-      ),
-    );
+  factory Place.fromJson(Map<String, dynamic> json) {
+    assert(json.containsKey('type') &&
+        ['location', 'stop'].contains(json['type']));
+    if (json['type'] == 'location')
+      return Place(
+        id: json['id'] as String,
+        name: json['name'] as String,
+        coordinates: LatLng(
+          lat: (json['latitude'] as num).toDouble(),
+          lng: (json['longitude'] as num).toDouble(),
+        ),
+      );
+    return Stop.fromJson(json);
   }
 }
 
 /// A transport line or route
 class Line {
   const Line({
-    @required this.id,
-    @required this.name,
+    this.id,
+    this.name,
     @required this.type,
   });
-  final int id;
+  final String id;
   final String name;
   final StopType type;
 
   factory Line.fromJson(Map<String, dynamic> json) {
     assert(json.containsKey('type') && json['type'] == 'line');
     return Line(
-      id: int.parse(json['id'] as String),
+      id: json['id'] as String,
       name: json['name'] as String,
       type: _stopTypeFromString(json['product']),
     );
@@ -50,24 +53,25 @@ class Line {
 }
 
 /// Data type for a transportation stop
-class Stop {
+class Stop extends Place {
   const Stop({
-    @required this.id,
-    @required this.name,
-    @required this.coordinates,
+    @required String id,
+    @required String name,
+    @required LatLng coordinates,
     @required this.types,
     @required this.lines,
-  });
-  final int id;
-  final String name;
-  final LatLng coordinates;
+  }) : super(id: id, name: name, coordinates: coordinates);
   final List<StopType> types;
   final List<Line> lines;
+
+  /// Converts enums to strings
+  Iterable<String> get typesAsStrings =>
+      types.map<String>((t) => t.toString().replaceAll(r'StopType.', ''));
 
   factory Stop.fromJson(Map<String, dynamic> json) {
     assert(json.containsKey('type') && json['type'] == 'stop');
     return Stop(
-      id: int.parse(json['id'] as String),
+      id: json['id'] as String,
       name: json['name'] as String,
       coordinates: LatLng(
         lat: (json['location']['latitude'] as num).toDouble(),
@@ -77,7 +81,9 @@ class Stop {
         for (var productKey in json['products'].keys)
           if (json['products'][productKey]) _stopTypeFromString(productKey)
       ],
-      lines: [for (var line in json['lines']) Line.fromJson(line)],
+      lines: [
+        for (var line in json['lines']) Line.fromJson(line),
+      ],
     );
   }
 }

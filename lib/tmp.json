@@ -1,0 +1,539 @@
+[
+    {
+        "type": "stop",
+        "id": "900000311315",
+        "name": "Eisenhüttenstadt, City Center",
+        "location": {
+            "type": "location",
+            "latitude": 52.151189,
+            "longitude": 14.634906
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "lines": [
+            {
+                "type": "line",
+                "id": "400",
+                "fahrtNr": null,
+                "name": "400",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 400,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "401",
+                "fahrtNr": null,
+                "name": "401",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 401,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "448",
+                "fahrtNr": null,
+                "name": "448",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 448,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "453",
+                "fahrtNr": null,
+                "name": "453",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 453,
+                "metro": false,
+                "express": false,
+                "night": false
+            }
+        ]
+    },
+    {
+        "type": "stop",
+        "id": "900000310562",
+        "name": "Erkner, City-Center",
+        "location": {
+            "type": "location",
+            "latitude": 52.424829,
+            "longitude": 13.751932
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "lines": [
+            {
+                "type": "line",
+                "id": "418",
+                "fahrtNr": null,
+                "name": "418",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 418,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "420",
+                "fahrtNr": null,
+                "name": "420",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 420,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "424",
+                "fahrtNr": null,
+                "name": "424",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 424,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "428",
+                "fahrtNr": null,
+                "name": "428",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 428,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "429",
+                "fahrtNr": null,
+                "name": "429",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 429,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "436",
+                "fahrtNr": null,
+                "name": "436",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 436,
+                "metro": false,
+                "express": false,
+                "night": false
+            }
+        ]
+    },
+    {
+        "type": "stop",
+        "id": "900000204015",
+        "name": "Oranienburg, TURM ErlebnisCity",
+        "location": {
+            "type": "location",
+            "latitude": 52.750625,
+            "longitude": 13.253624
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "lines": [
+            {
+                "type": "line",
+                "id": "804",
+                "fahrtNr": null,
+                "name": "804",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 804,
+                "metro": false,
+                "express": false,
+                "night": false
+            },
+            {
+                "type": "line",
+                "id": "821",
+                "fahrtNr": null,
+                "name": "821",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 821,
+                "metro": false,
+                "express": false,
+                "night": false
+            }
+        ]
+    },
+    {
+        "type": "location",
+        "latitude": 52.500132,
+        "longitude": 13.324153,
+        "name": "Berlin, Amaryl City-Hotel***",
+        "id": "900980199"
+    },
+    {
+        "type": "location",
+        "latitude": 52.499745,
+        "longitude": 13.322634,
+        "name": "Berlin, Art'otel Berlin City Center West",
+        "id": "900980231"
+    },
+    {
+        "type": "location",
+        "latitude": 52.517796,
+        "longitude": 13.461787,
+        "name": "Berlin, Berliner City-Pension",
+        "id": "900980261"
+    },
+    {
+        "type": "location",
+        "latitude": 52.514829,
+        "longitude": 13.466012,
+        "name": "Berlin, Best Western Hotel City Ost***",
+        "id": "900980764"
+    },
+    {
+        "type": "location",
+        "latitude": 52.513526,
+        "longitude": 13.481959,
+        "name": "Berlin, Best Western Premier Hotel City-Con***",
+        "id": "900980272"
+    },
+    {
+        "type": "location",
+        "latitude": 52.510739,
+        "longitude": 13.392983,
+        "name": "Berlin, City Hotel am Gendarmenmarkt****",
+        "id": "900981434"
+    },
+    {
+        "type": "location",
+        "latitude": 52.500006,
+        "longitude": 13.309644,
+        "name": "Berlin, City Hotel am Kurfürstendamm***",
+        "id": "900980302"
+    },
+    {
+        "type": "location",
+        "latitude": 52.504393,
+        "longitude": 13.331353,
+        "name": "Berlin, City Hotel Hardenberg Berlin",
+        "id": "900980304"
+    },
+    {
+        "type": "location",
+        "latitude": 52.498999,
+        "longitude": 13.310426,
+        "name": "Berlin, City Hotel Lenz",
+        "id": "900980308"
+    },
+    {
+        "type": "location",
+        "latitude": 52.510083,
+        "longitude": 13.302138,
+        "name": "Berlin, City Residence Schillerstr.",
+        "id": "900980307"
+    },
+    {
+        "type": "location",
+        "latitude": 52.500437,
+        "longitude": 13.3554,
+        "name": "Berlin, Hiputh City Apartments",
+        "id": "900980385"
+    },
+    {
+        "type": "location",
+        "latitude": 52.547793,
+        "longitude": 13.428841,
+        "name": "Berlin, Holiday Inn City Center East****",
+        "id": "900980387"
+    },
+    {
+        "type": "location",
+        "latitude": 52.504887,
+        "longitude": 13.445417,
+        "name": "Berlin, Holiday Inn City East Side****",
+        "id": "900980510"
+    },
+    {
+        "type": "location",
+        "latitude": 52.533473,
+        "longitude": 13.47848,
+        "name": "Berlin, Holiday Inn City East****",
+        "id": "900980534"
+    },
+    {
+        "type": "location",
+        "latitude": 52.540646,
+        "longitude": 13.2621,
+        "name": "Berlin, Holiday Inn City West****",
+        "id": "900980388"
+    },
+    {
+        "type": "location",
+        "latitude": 52.50406,
+        "longitude": 13.347642,
+        "name": "Berlin, Holiday Inn Express City Centre-West****",
+        "id": "900980710"
+    },
+    {
+        "type": "location",
+        "latitude": 52.50184,
+        "longitude": 13.385388,
+        "name": "Berlin, Holiday Inn Express City Centre****",
+        "id": "900980746"
+    },
+    {
+        "type": "location",
+        "latitude": 52.509912,
+        "longitude": 13.276196,
+        "name": "Berlin, Hotel Apart City",
+        "id": "900980224"
+    },
+    {
+        "type": "location",
+        "latitude": 52.503889,
+        "longitude": 13.340513,
+        "name": "Berlin, Hotel Crowne Plaza Berlin City Centre****",
+        "id": "900980322"
+    },
+    {
+        "type": "location",
+        "latitude": 52.512941,
+        "longitude": 13.466434,
+        "name": "Berlin, Hotel Ibis Berlin City Ost***",
+        "id": "900980872"
+    },
+    {
+        "type": "location",
+        "latitude": 52.4989,
+        "longitude": 13.386646,
+        "name": "Berlin, Meininger City Hostels Kreuzberg 1",
+        "id": "900980117"
+    },
+    {
+        "type": "location",
+        "latitude": 52.498927,
+        "longitude": 13.386889,
+        "name": "Berlin, Meininger City Hostels Kreuzberg 2 ***",
+        "id": "900980306"
+    },
+    {
+        "type": "location",
+        "latitude": 52.485875,
+        "longitude": 13.346482,
+        "name": "Berlin, Meininger City Hostels Schöneberg",
+        "id": "900980525"
+    },
+    {
+        "type": "location",
+        "latitude": 52.530309,
+        "longitude": 13.38145,
+        "name": "Berlin, Mercure Hotel Berlin City",
+        "id": "900981439"
+    },
+    {
+        "type": "location",
+        "latitude": 52.535711,
+        "longitude": 13.273022,
+        "name": "Berlin, Mercure Hotel Berlin City West",
+        "id": "900981442"
+    },
+    {
+        "type": "location",
+        "latitude": 52.339072,
+        "longitude": 14.552008,
+        "name": "Frankfurt (Oder), City Park Hotel",
+        "id": "900985415"
+    },
+    {
+        "type": "location",
+        "latitude": 52.393807,
+        "longitude": 13.059493,
+        "name": "Potsdam, Mercure Hotel Potsdam City",
+        "id": "900985425"
+    },
+    {
+        "type": "stop",
+        "id": "900000185506",
+        "name": "Teikyo-University",
+        "location": {
+            "type": "location",
+            "latitude": 52.367954,
+            "longitude": 13.656089
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        },
+        "lines": [
+            {
+                "type": "line",
+                "id": "168",
+                "fahrtNr": null,
+                "name": "168",
+                "public": true,
+                "class": 8,
+                "mode": "bus",
+                "product": "bus",
+                "symbol": null,
+                "nr": 168,
+                "metro": false,
+                "express": false,
+                "night": false
+            }
+        ]
+    },
+    {
+        "type": "location",
+        "latitude": 52.499736,
+        "longitude": 13.271701,
+        "name": "Berlin, CityCube Berlin",
+        "id": "900980684"
+    },
+    {
+        "type": "location",
+        "latitude": 52.506982,
+        "longitude": 13.300305,
+        "name": "Berlin, Hotel Cityblick**",
+        "id": "900980303"
+    },
+    {
+        "type": "location",
+        "latitude": 52.548961,
+        "longitude": 13.382349,
+        "name": "Berlin, Hotel Citylight",
+        "id": "900980305"
+    },
+    {
+        "type": "location",
+        "latitude": 52.510344,
+        "longitude": 13.433003,
+        "name": "Berlin, InterCity Hotel Berlin",
+        "id": "900980400"
+    },
+    {
+        "type": "location",
+        "latitude": 52.488311,
+        "longitude": 13.362061,
+        "name": "Berlin, Jugendhotel Berlincity**",
+        "id": "900980406"
+    },
+    {
+        "type": "location",
+        "latitude": 52.750535,
+        "longitude": 13.256842,
+        "name": "Oranienburg, T.U.R.M. ErlebnisCity",
+        "id": "900985223"
+    },
+    {
+        "type": "location",
+        "latitude": 52.499116,
+        "longitude": 13.312827,
+        "name": "Berlin, Citadines Aparthotel***",
+        "id": "900980300"
+    },
+    {
+        "type": "location",
+        "latitude": 52.446098,
+        "longitude": 13.413371,
+        "address": "12109 Berlin-Mariendorf, Tacitusstr."
+    },
+    {
+        "type": "location",
+        "latitude": 52.499772,
+        "longitude": 13.323937,
+        "name": "Berlin, Quality Hotel Imperial Berlin***",
+        "id": "900980486"
+    },
+    {
+        "type": "location",
+        "latitude": 52.533473,
+        "longitude": 13.477248,
+        "name": "Berlin, Quality Hotel + Suites Wilhelmsberg****",
+        "id": "900980487"
+    }
+]

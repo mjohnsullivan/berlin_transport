@@ -8,7 +8,7 @@ class AppLocalizations {
   static AppLocalizations of(BuildContext context) =>
       Localizations.of<AppLocalizations>(context, AppLocalizations);
 
-  static Map<String, Map<String, String>> _localizedValues = {
+  static const _localizedValues = {
     'en': {
       'hello': 'Hello World',
       'title': 'Berlin Transport App',

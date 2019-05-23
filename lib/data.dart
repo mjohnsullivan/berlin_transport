@@ -18,8 +18,27 @@ class Place {
   factory Place.fromJson(Map<String, dynamic> json) {
     assert(json.containsKey('type') &&
         ['location', 'stop'].contains(json['type']));
+    return (json['type'] == 'location')
+        ? Location.fromJson(json)
+        : Stop.fromJson(json);
+  }
+}
+
+class Location extends Place {
+  const Location({
+    @required String id,
+    @required String name,
+    @required LatLng coordinates,
+  }) : super(id: id, name: name, coordinates: coordinates);
+
+  factory Location.fromJson(Map<String, dynamic> json) {
+    // Return null if id or name keys are missing
+    if (!json.keys.contains('id') || !json.keys.contains('name'))
+      // throw FormatException('Incorrectly formatted location json');
+      return null;
+
     if (json['type'] == 'location')
-      return Place(
+      return Location(
         id: json['id'] as String,
         name: json['name'] as String,
         coordinates: LatLng(
@@ -27,7 +46,7 @@ class Place {
           lng: (json['longitude'] as num).toDouble(),
         ),
       );
-    return Stop.fromJson(json);
+    return Location.fromJson(json);
   }
 }
 

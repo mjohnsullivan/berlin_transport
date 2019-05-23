@@ -61,10 +61,14 @@ Future<String> journey(int fromId, int toId) async {
 ///
 /// curl 'https://1.bvg.transport.rest/locations?query=citycube'
 Future<List<Place>> locations(String query) async {
-  final url = urlPrefix + '/locations?query=$query' + '&stationLines=true';
+  final url = urlPrefix +
+      '/locations?query=$query' +
+      '&stationLines=true' +
+      '&results=50';
   final body = await _fetchData(url);
   return (json.decode(body) as List)
       .map<Place>((p) => Place.fromJson(p))
+      .where((p) => p != null) // filter out nulls
       .toList();
 }
 

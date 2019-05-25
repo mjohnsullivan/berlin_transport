@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
+import 'package:berlin_transport/animations.dart';
+
 import 'package:berlin_transport/localization.dart';
 import 'package:berlin_transport/models.dart';
 import 'package:berlin_transport/data.dart';
@@ -44,6 +46,11 @@ class BerlinTransportPage extends StatelessWidget {
         child: Column(
           children: [
             SearchBox(),
+            Container(
+              height: 200,
+              width: 200,
+              child: BusAnimation(),
+            ),
             Expanded(
               child: PlacesList(),
             ),

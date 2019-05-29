@@ -1,0 +1,32 @@
+// Copyright 2019 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
+import 'package:flutter/material.dart';
+
+const berlinBrightYellow = Color(0xFFFFD300);
+
+final appBarTheme = AppBarTheme(
+  elevation: 0,
+  color: berlinBrightYellow,
+);
+
+final appTheme = ThemeData(
+  // Define the default Brightness and Colors
+  brightness: Brightness.light,
+  primaryColor: berlinBrightYellow,
+  accentColor: Colors.cyan[600],
+  appBarTheme: appBarTheme,
+  /*
+    // Define the default Font Family
+    fontFamily: 'Montserrat',
+    
+    // Define the default TextTheme. Use this to specify the default
+    // text styling for headlines, titles, bodies of text, and more.
+    textTheme: TextTheme(
+      headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
+      title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+      body1: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
+    ),
+    */
+);

@@ -2,12 +2,15 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:berlin_transport/theme.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'package:berlin_transport/animations.dart';
+import 'package:berlin_transport/search.dart';
+import 'package:berlin_transport/theme.dart' show appTheme;
 
 import 'package:berlin_transport/localization.dart';
 import 'package:berlin_transport/models.dart';
@@ -29,8 +32,27 @@ class MyApp extends StatelessWidget {
         const Locale('en'),
         const Locale('de'),
       ],
-      home: BerlinTransportPage(),
+      theme: appTheme,
+      home: OverrideLocalization(child: BerlinTransportPage()),
     );
+  }
+}
+
+/// Overrides the phone's locale, if a locale is provided
+class OverrideLocalization extends StatelessWidget {
+  OverrideLocalization({this.locale, this.child});
+  final Locale locale;
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return locale != null
+        ? Localizations.override(
+            context: context,
+            locale: locale,
+            child: child,
+          )
+        : child;
   }
 }
 
@@ -38,8 +60,20 @@ class BerlinTransportPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: berlinBrightYellow,
       appBar: AppBar(
         title: Text(AppLocalizations.of(context).title),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.search),
+            onPressed: () {
+              showSearch(
+                context: context,
+                delegate: DestinationSearchDelegate(),
+              );
+            },
+          ),
+        ],
       ),
       body: ChangeNotifierProvider(
         builder: (context) => PlacesNotifier(),
@@ -49,7 +83,7 @@ class BerlinTransportPage extends StatelessWidget {
             Container(
               height: 200,
               width: 200,
-              child: BusAnimation(),
+              child: Center(child: BusAnimation()),
             ),
             Expanded(
               child: PlacesList(),

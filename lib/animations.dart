@@ -19,7 +19,7 @@ class _BusAnimationState extends State<BusAnimation> {
   @override
   Widget build(BuildContext context) {
     return FlareActor(
-      'assets/flare/bus.flr',
+      'assets/flare/train.flr',
       alignment: Alignment.center,
       fit: BoxFit.contain,
       animation: _animationName,

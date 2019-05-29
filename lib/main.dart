@@ -38,22 +38,20 @@ class MyApp extends StatelessWidget {
   }
 }
 
-/// Overrides the phone's locale, if a locale is provided
+/// Overrides the phone's locale, only if a locale is provided
 class OverrideLocalization extends StatelessWidget {
   OverrideLocalization({this.locale, this.child});
   final Locale locale;
   final Widget child;
 
   @override
-  Widget build(BuildContext context) {
-    return locale != null
-        ? Localizations.override(
-            context: context,
-            locale: locale,
-            child: child,
-          )
-        : child;
-  }
+  Widget build(BuildContext context) => locale != null
+      ? Localizations.override(
+          context: context,
+          locale: locale,
+          child: child,
+        )
+      : child;
 }
 
 class BerlinTransportPage extends StatelessWidget {

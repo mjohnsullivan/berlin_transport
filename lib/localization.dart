@@ -17,12 +17,14 @@ class AppLocalizations {
       'hello': 'Hello World',
       'title': 'Berlin Transport App',
       'search': 'Search',
+      'searching_message': 'searching ...',
       'searchHintText': 'Please enter a search term',
     },
     'de': {
       'hello': 'Hallo Welt',
       'title': 'Berliner Verkehr App',
       'search': 'Suche',
+      'searching_message': 'suche ...',
       'searchHintText': 'Bitte geben Sie einen Suchbegriff ein',
     },
   };
@@ -30,6 +32,8 @@ class AppLocalizations {
   String get title => _localizedValues[locale.languageCode]['title'];
   String get hello => _localizedValues[locale.languageCode]['hello'];
   String get search => _localizedValues[locale.languageCode]['search'];
+  String get searchMessage =>
+      _localizedValues[locale.languageCode]['searching_message'];
   String get searchHintText =>
       _localizedValues[locale.languageCode]['searchHintText'];
 }

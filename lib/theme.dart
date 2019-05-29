@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 
 const berlinBrightYellow = Color(0xFFFFD300);
+const berlinDarkYellow = Color(0xFFFFB900);
 
 final appBarTheme = AppBarTheme(
   elevation: 0,
@@ -12,10 +13,9 @@ final appBarTheme = AppBarTheme(
 );
 
 final appTheme = ThemeData(
-  // Define the default Brightness and Colors
   brightness: Brightness.light,
   primaryColor: berlinBrightYellow,
-  accentColor: Colors.cyan[600],
+  accentColor: berlinDarkYellow,
   appBarTheme: appBarTheme,
   /*
     // Define the default Font Family

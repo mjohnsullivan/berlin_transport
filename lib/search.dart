@@ -1,3 +1,4 @@
+import 'package:berlin_transport/localization.dart';
 import 'package:flutter/material.dart';
 
 import 'package:berlin_transport/theme.dart' as theme;
@@ -43,7 +44,7 @@ class DestinationSearchDelegate extends SearchDelegate {
     return Container(
       color: theme.berlinBrightYellow,
       child: Center(
-        child: Text('Searching ...'),
+        child: Text(AppLocalizations.of(context).searchMessage),
       ),
     );
   }

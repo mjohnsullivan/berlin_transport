@@ -18,14 +18,28 @@ class AppLocalizations {
       'title': 'Berlin Transport App',
       'search': 'Search',
       'searching_message': 'searching ...',
+      'departure': 'Departure',
+      'arrival': 'Arrival',
       'searchHintText': 'Please enter a search term',
+      'offline': 'offline',
+      'preferences': 'Preferences',
+      'language': 'Language',
+      'english': 'English',
+      'german': 'German',
     },
     'de': {
       'hello': 'Hallo Welt',
       'title': 'Berliner Verkehr App',
       'search': 'Suche',
       'searching_message': 'suche ...',
+      'departure': 'Abfahrt',
+      'arrival': 'Ankunft',
       'searchHintText': 'Bitte geben Sie einen Suchbegriff ein',
+      'offline': 'offline',
+      'preferences': 'Vorlieben',
+      'language': 'Sprache',
+      'english': 'Englisch',
+      'german': 'Deutsche',
     },
   };
 
@@ -34,8 +48,16 @@ class AppLocalizations {
   String get search => _localizedValues[locale.languageCode]['search'];
   String get searchMessage =>
       _localizedValues[locale.languageCode]['searching_message'];
+  String get departure => _localizedValues[locale.languageCode]['departure'];
+  String get arrival => _localizedValues[locale.languageCode]['arrival'];
   String get searchHintText =>
       _localizedValues[locale.languageCode]['searchHintText'];
+  String get offline => _localizedValues[locale.languageCode]['offline'];
+  String get preferences =>
+      _localizedValues[locale.languageCode]['preferences'];
+  String get language => _localizedValues[locale.languageCode]['language'];
+  String get english => _localizedValues[locale.languageCode]['english'];
+  String get german => _localizedValues[locale.languageCode]['german'];
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

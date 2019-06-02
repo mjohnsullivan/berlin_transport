@@ -18,7 +18,11 @@ class Journey extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.all(20),
       child: Card(
-        color: berlinDarkYellow,
+        color: berlinBrightYellow,
+        elevation: 4,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(10),
+        ),
         child: Padding(
           padding: const EdgeInsets.all(8),
           child: Column(

@@ -60,10 +60,12 @@ class Line {
     this.id,
     this.name,
     @required this.type,
+    @required this.mode,
   });
   final String id;
   final String name;
   final StopType type;
+  final Mode mode;
 
   factory Line.fromJson(Map<String, dynamic> json) {
     assert(json.containsKey('type') && json['type'] == 'line');
@@ -71,6 +73,7 @@ class Line {
       id: json['id'] as String,
       name: json['name'] as String,
       type: _stopTypeFromString(json['product']),
+      mode: _modeTypeFromString(json['mode']),
     );
   }
 }
@@ -123,9 +126,20 @@ enum StopType {
   regional,
 }
 
-/// Converts string to enums
+/// Converts stop type string to enums
 StopType _stopTypeFromString(String str) =>
     StopType.values.firstWhere((e) => e.toString() == 'StopType.$str');
+
+/// Modes of transportation
+enum Mode {
+  bus,
+  train,
+  walking,
+}
+
+/// Converts mode string to enums
+Mode _modeTypeFromString(String str) =>
+    Mode.values.firstWhere((e) => e.toString() == 'Mode.$str');
 
 class Journey {
   const Journey({@required this.legs});

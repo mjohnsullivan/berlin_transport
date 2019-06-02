@@ -82,8 +82,9 @@ class BerlinTransportPage extends StatelessWidget {
       body: Column(
         children: [
           Departure(),
+          SizedBox(height: 15),
           Arrival(),
-          SizedBox(height: 30),
+          SizedBox(height: 15),
           Expanded(
             child: JourneyPanel(),
           ),
@@ -99,8 +100,8 @@ class Departure extends StatelessWidget {
     final notifier = Provider.of<JourneyNotifier>(context);
     return GestureDetector(
       child: notifier.departure != null
-          ? Text(notifier.departure.name)
-          : Text(AppLocalizations.of(context).departure),
+          ? EmbossedText(notifier.departure.name)
+          : EmbossedText(AppLocalizations.of(context).departure),
       onTap: () => showPlacesSearch(context).then(
             (place) => notifier.departure = place,
           ),
@@ -114,11 +115,40 @@ class Arrival extends StatelessWidget {
     final notifier = Provider.of<JourneyNotifier>(context);
     return GestureDetector(
       child: notifier.arrival != null
-          ? Text(notifier.arrival.name)
-          : Text(AppLocalizations.of(context).arrival),
+          ? EmbossedText(notifier.arrival.name)
+          : EmbossedText(AppLocalizations.of(context).arrival),
       onTap: () => showPlacesSearch(context).then(
             (place) => notifier.arrival = place,
           ),
+    );
+  }
+}
+
+class EmbossedText extends StatelessWidget {
+  const EmbossedText(this.text);
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(
+        left: 20,
+        right: 20,
+      ),
+      child: SizedBox(
+        width: double.infinity,
+        child: Material(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+          ),
+          elevation: 4,
+          color: berlinBrightYellow,
+          child: Padding(
+            padding: const EdgeInsets.all(10),
+            child: Text(text),
+          ),
+        ),
+      ),
     );
   }
 }

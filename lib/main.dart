@@ -9,13 +9,13 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'package:berlin_transport/widgets/widgets.dart';
-import 'package:berlin_transport/search.dart';
+import 'package:berlin_transport/widgets/search.dart';
 import 'package:berlin_transport/theme.dart';
 import 'package:berlin_transport/widgets/prefs.dart';
 
-import 'package:berlin_transport/localization.dart';
-import 'package:berlin_transport/models.dart';
-import 'package:berlin_transport/data.dart';
+import 'package:berlin_transport/data/localization.dart';
+import 'package:berlin_transport/data/models.dart';
+import 'package:berlin_transport/data/data.dart';
 
 void main() => runApp(BerlinTransportApp());
 

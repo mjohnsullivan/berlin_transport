@@ -2,7 +2,7 @@
 
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:berlin_transport/data.dart';
+import 'package:berlin_transport/data/data.dart';
 
 void main() {
   test('Location classes build from valid, parsed json', () {

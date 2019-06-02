@@ -6,9 +6,9 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import 'package:berlin_transport/models.dart';
-import 'package:berlin_transport/animations.dart';
-import 'package:berlin_transport/localization.dart';
+import 'package:berlin_transport/data/models.dart';
+import 'package:berlin_transport/widgets/animations.dart';
+import 'package:berlin_transport/data/localization.dart';
 import 'package:berlin_transport/theme.dart';
 
 class SplashScreen extends StatelessWidget {

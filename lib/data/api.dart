@@ -10,7 +10,7 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 
-import 'package:berlin_transport/data.dart';
+import 'package:berlin_transport/data/data.dart';
 
 class LatLng {
   const LatLng({this.lat, this.lng});

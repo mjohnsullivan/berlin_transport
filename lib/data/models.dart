@@ -7,7 +7,7 @@
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 
-import 'package:berlin_transport/data.dart';
+import 'package:berlin_transport/data/data.dart';
 
 /// Journey data
 class JourneyNotifier with ChangeNotifier {

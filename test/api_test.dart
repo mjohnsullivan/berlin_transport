@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:berlin_transport/api.dart';
+import 'package:berlin_transport/data/api.dart';
 
 void main() {
   test('nearbyStations returns a result', () async {

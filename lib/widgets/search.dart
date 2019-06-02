@@ -1,8 +1,8 @@
-import 'package:berlin_transport/data.dart';
+import 'package:berlin_transport/data/data.dart';
 import 'package:flutter/material.dart';
 
-import 'package:berlin_transport/api.dart';
-import 'package:berlin_transport/localization.dart';
+import 'package:berlin_transport/data/api.dart';
+import 'package:berlin_transport/data/localization.dart';
 
 import 'package:berlin_transport/theme.dart' as theme;
 

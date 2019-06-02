@@ -9,8 +9,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'package:berlin_transport/widgets/widgets.dart';
-import 'package:berlin_transport/localization.dart';
-import 'package:berlin_transport/models.dart';
+import 'package:berlin_transport/data/localization.dart';
+import 'package:berlin_transport/data/models.dart';
 
 void showPreferences(BuildContext context) {
   showModalBottomSheet(

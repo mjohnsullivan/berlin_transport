@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
 
-import 'package:berlin_transport/localization.dart';
-import 'package:berlin_transport/models.dart';
+import 'package:berlin_transport/data/localization.dart';
+import 'package:berlin_transport/data/models.dart';
 
 /// Overrides the phone's locale, only if a locale is provided
 class OverrideLocalization extends StatelessWidget {

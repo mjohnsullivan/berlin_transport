@@ -21,8 +21,8 @@ void main() {
   });
 
   test('journey returns a result', () async {
-    final fromId = 900000100031;
-    final toId = 900000100030;
+    final fromId = '900000100031';
+    final toId = '900000100030';
     final res = await journey(fromId, toId);
     print(res);
   });

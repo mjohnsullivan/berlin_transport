@@ -1,3 +1,7 @@
+// Copyright 2019 The Chromium Authors. All rights reserved.
+// Use of this source code is governed by a BSD-style license that can be
+// found in the LICENSE file.
+
 import 'package:berlin_transport/data/data.dart';
 import 'package:flutter/material.dart';
 
@@ -5,6 +9,12 @@ import 'package:berlin_transport/data/api.dart';
 import 'package:berlin_transport/data/localization.dart';
 
 import 'package:berlin_transport/theme.dart' as theme;
+
+Future<Place> showPlacesSearch(BuildContext context) async =>
+    await showSearch<Place>(
+      context: context,
+      delegate: PlacesSearchDelegate(),
+    );
 
 class PlacesSearchDelegate extends SearchDelegate<Place> {
   @override

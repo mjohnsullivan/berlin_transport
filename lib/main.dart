@@ -2,7 +2,6 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:berlin_transport/widgets/splash.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -12,10 +11,12 @@ import 'package:berlin_transport/widgets/widgets.dart';
 import 'package:berlin_transport/widgets/search.dart';
 import 'package:berlin_transport/theme.dart';
 import 'package:berlin_transport/widgets/prefs.dart';
+import 'package:berlin_transport/widgets/splash.dart';
+import 'package:berlin_transport/widgets/journey.dart';
 
 import 'package:berlin_transport/data/localization.dart';
 import 'package:berlin_transport/data/models.dart';
-import 'package:berlin_transport/data/data.dart';
+import 'package:berlin_transport/data/data.dart' as data;
 
 void main() => runApp(BerlinTransportApp());
 
@@ -72,7 +73,7 @@ class BerlinTransportPage extends StatelessWidget {
         actions: [
           Builder(
             builder: (context) => IconButton(
-                  icon: Icon(Icons.build),
+                  icon: Icon(Icons.settings),
                   onPressed: () => showPreferences(context),
                 ),
           ),
@@ -82,16 +83,9 @@ class BerlinTransportPage extends StatelessWidget {
         children: [
           Departure(),
           Arrival(),
+          SizedBox(height: 30),
           Expanded(
-            child: Container(
-              height: 200,
-              width: 200,
-              child: Center(
-                  //child: TransportAnimation(
-                  //  type: randomTransportAnimationType(),
-                  //),
-                  ),
-            ),
+            child: JourneyPanel(),
           ),
         ],
       ),
@@ -107,7 +101,7 @@ class Departure extends StatelessWidget {
       child: notifier.departure != null
           ? Text(notifier.departure.name)
           : Text(AppLocalizations.of(context).departure),
-      onTap: () => _showPlacesSearch(context).then(
+      onTap: () => showPlacesSearch(context).then(
             (place) => notifier.departure = place,
           ),
     );
@@ -122,17 +116,36 @@ class Arrival extends StatelessWidget {
       child: notifier.arrival != null
           ? Text(notifier.arrival.name)
           : Text(AppLocalizations.of(context).arrival),
-      onTap: () => _showPlacesSearch(context).then(
+      onTap: () => showPlacesSearch(context).then(
             (place) => notifier.arrival = place,
           ),
     );
   }
 }
 
-Future<Place> _showPlacesSearch(BuildContext context) async {
-  final place = await showSearch<Place>(
-    context: context,
-    delegate: PlacesSearchDelegate(),
-  );
-  return place;
+class JourneyPanel extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Consumer<JourneyNotifier>(
+      builder: (context, notifier, _) => notifier.journeys != null
+          ? JourneyList(notifier.journeys)
+          : Container(
+              child: Center(
+                child: Text('No journey data yet'),
+              ),
+            ),
+    );
+  }
+}
+
+class JourneyList extends StatelessWidget {
+  JourneyList(this.journeys);
+  final List<data.Journey> journeys;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      children: journeys.map<Journey>((j) => Journey(j)).toList(),
+    );
+  }
 }

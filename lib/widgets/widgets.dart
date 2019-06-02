@@ -21,6 +21,17 @@ class OverrideLocalization extends StatelessWidget {
           child: child,
         )
       : child;
+
+  Widget build2(BuildContext build) {
+    return Consumer<PrefsNotifier>(
+        builder: (context, notifier, _) => locale != null
+            ? Localizations.override(
+                context: context,
+                locale: locale,
+                child: child,
+              )
+            : child);
+  }
 }
 
 /// Text search box for places : UNUSED

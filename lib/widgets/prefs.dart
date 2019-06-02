@@ -39,7 +39,8 @@ class Preferences extends StatelessWidget {
                   ),
                 ),
                 LocalePref(),
-                Offline(),
+                OfflinePref(),
+                SplashPref(),
               ],
             ),
           ),
@@ -76,7 +77,7 @@ class LocalePref extends StatelessWidget {
   }
 }
 
-class Offline extends StatelessWidget {
+class OfflinePref extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -88,6 +89,26 @@ class Offline extends StatelessWidget {
             builder: (context, notifier, _) => Switch(
                   value: notifier.offline,
                   onChanged: (val) => notifier.offline = val,
+                ),
+          )
+        ],
+      ),
+    );
+  }
+}
+
+class SplashPref extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 10, right: 10),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.end,
+        children: [
+          Consumer<AppStateNotifier>(
+            builder: (context, notifier, _) => IconButton(
+                  icon: Icon(Icons.restore, size: 15, color: Colors.grey),
+                  onPressed: () => notifier.resetSplash(),
                 ),
           )
         ],

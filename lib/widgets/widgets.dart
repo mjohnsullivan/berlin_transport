@@ -55,7 +55,7 @@ class _PlacesSearchBoxState extends State<PlacesSearchBox> {
           icon: Icon(Icons.search),
           label: Text(AppLocalizations.of(context).search),
           onPressed: () => _controller.text != null
-              ? Provider.of<PlacesNotifier>(context).search(_controller.text)
+              ? null // Provider.of<PlacesNotifier>(context).search(_controller.text)
               : null,
         ),
       ],

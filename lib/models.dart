@@ -39,12 +39,23 @@ class PrefsNotifier with ChangeNotifier {
   }
 
   // Locale
-  Locale _locale;
-  Locale get locale => _locale;
-  set locale(Locale value) {
-    _locale = value;
+  static const Map<int, Locale> supportedLanguages = {
+    0: const Locale('en'),
+    1: const Locale('de'),
+  };
+
+  // The selector value, which maps to supportedLanguages
+  int _localeSelector = 0;
+  int get localeSelector => _localeSelector;
+  set localeSelector(int val) {
+    assert(val >= 0 && val <= 1);
+    _localeSelector = val;
+    _locale = supportedLanguages[val];
     notifyListeners();
   }
+
+  Locale _locale;
+  Locale get locale => _locale;
 }
 
 /// App state

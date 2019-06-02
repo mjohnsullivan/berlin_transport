@@ -47,11 +47,15 @@ class BerlinTransportApp extends StatelessWidget {
           const Locale('de'),
         ],
         theme: appTheme,
-        home: OverrideLocalization(
-          child: Consumer<AppStateNotifier>(
-            builder: (context, notifier, _) =>
-                notifier.showSplash ? SplashScreen() : BerlinTransportPage(),
-          ),
+        home: Consumer<PrefsNotifier>(
+          builder: (context, notifier, _) => OverrideLocalization(
+                locale: notifier.locale,
+                child: Consumer<AppStateNotifier>(
+                  builder: (context, notifier, _) => notifier.showSplash
+                      ? SplashScreen()
+                      : BerlinTransportPage(),
+                ),
+              ),
         ),
       ),
     );

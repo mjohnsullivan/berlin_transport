@@ -1,0 +1,21 @@
+{origin: {type: stop, id: 900000215696, name: Perleberg, Bhf, location: {type: location, latitude: 53.071252, longitude: 11.852322
+        }, products: {suburban: false, subway: false, tram: false, bus: true, ferry: false, express: false, regional: true
+        }
+    }, destination: {type: stop, id: 900000029101, name: S Spandau, location: {type: location, latitude: 52.534794, longitude: 13.197477
+        }, products: {suburban: true, subway: false, tram: false, bus: true, ferry: false, express: true, regional: true
+        }
+    }, departure: 2019-06-03T07: 16: 00.000+02: 00, arrival: 2019-06-03T09: 36: 00.000+02: 00, id: 1|2003|0|86|3062019, line: {type: line, id: re6, fahrtNr: 135, name: RE6, public: true, class: 64, productCode: 6, mode: train, product: regional, operator: {type: operator, id: db-regio-ag, name: DB Regio AG
+        }, symbol: RE, nr: 6, metro: false, express: true, night: false
+    }, direction: S+U Gesundbrunnen, departurePlatform: 1, arrivalPlatform: 6
+}
+{origin: {type: stop, id: 900000029101, name: S Spandau, location: {type: location, latitude: 52.534794, longitude: 13.197477
+        }, products: {suburban: true, subway: false, tram: false, bus: true, ferry: false, express: true, regional: true
+        }
+    }, destination: {type: stop, id: 900000025423, name: S Messe Süd, location: {type: location, latitude: 52.498774, longitude: 13.270451
+        }, products: {suburban: true, subway: false, tram: false, bus: true, ferry: false, express: false, regional: false
+        }
+    }, departure: 2019-06-03T09: 48: 00.000+02: 00, arrival: 2019-06-03T09: 59: 00.000+02: 00, id: 1|35247|2|86|3062019, line: {type: line, id: s3, fahrtNr: 16562, name: S3, public: true, class: 1, productCode: 0, mode: train, product: suburban, operator: {type: operator, id: s-bahn-berlin-gmbh, name: S-Bahn Berlin GmbH
+        }, symbol: S, nr: 3, metro: false, express: false, night: false
+    }, direction: S Erkner, departurePlatform: 1, arrivalPlatform: 1, cycle: {min: 600, max: 600, nr: 13
+    }
+}

@@ -147,7 +147,7 @@ class Leg {
     @required this.destination,
     @required this.departureTime,
     @required this.arrivalTime,
-    @required this.line,
+    this.line,
     this.direction,
   });
   final Stop origin;
@@ -162,7 +162,7 @@ class Leg {
         destination: Stop.fromJson(json['destination']),
         departureTime: DateTime.parse(json['departure']),
         arrivalTime: DateTime.parse(json['arrival']),
-        line: Line.fromJson(json['line']),
+        line: json.containsKey('line') ? Line.fromJson(json['line']) : null,
         direction: json['direction'],
       );
 

@@ -8,6 +8,7 @@ import 'dart:ui';
 import 'package:flutter/foundation.dart';
 
 import 'package:berlin_transport/data/data.dart';
+import 'package:berlin_transport/data/api.dart' as api;
 
 /// Journey data
 class JourneyNotifier with ChangeNotifier {
@@ -16,6 +17,7 @@ class JourneyNotifier with ChangeNotifier {
   Place get departure => _departure;
   set departure(Place place) {
     _departure = place;
+    _fetchJourneys();
     notifyListeners();
   }
 
@@ -24,7 +26,18 @@ class JourneyNotifier with ChangeNotifier {
   Place get arrival => _arrival;
   set arrival(Place place) {
     _arrival = place;
+    _fetchJourneys();
     notifyListeners();
+  }
+
+  // Journey data
+  List<Journey> _journeys;
+  List<Journey> get journeys => _journeys;
+  void _fetchJourneys() async {
+    if (_departure != null && _arrival != null) {
+      _journeys = await api.journey(_departure.id, _arrival.id);
+      notifyListeners();
+    }
   }
 }
 

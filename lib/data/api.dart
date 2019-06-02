@@ -52,9 +52,13 @@ Future<String> departures(int stationId) async {
 /// Retrieves journey data from and to specified stations
 ///
 /// curl 'https://1.bvg.transport.rest/journeys?from=900000017104&to=900000017101'
-Future<String> journey(int fromId, int toId) async {
+Future<List<Journey>> journey(String fromId, String toId) async {
   final url = urlPrefix + '/journeys?from=$fromId&to=$toId';
-  return _fetchData(url);
+  print(url);
+  final body = await _fetchData(url);
+  return (json.decode(body) as List)
+      .map<Journey>((j) => Journey.fromJson(j))
+      .toList();
 }
 
 /// Searches for locations given a query string

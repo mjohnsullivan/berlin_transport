@@ -1,0 +1,1504 @@
+[
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215151",
+                    "name": "Boberow",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.145252,
+                        "longitude": 11.615744
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215455",
+                    "name": "Karstädt (PR), Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.159913,
+                        "longitude": 11.738968
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-02T18:09:00.000+02:00",
+                "arrival": "2019-06-02T18:33:00.000+02:00",
+                "id": "1|47182|3|86|2062019",
+                "line": {
+                    "type": "line",
+                    "id": "952",
+                    "fahrtNr": "3858",
+                    "name": "952",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 952,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Karstädt (PR), Bhf"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215455",
+                    "name": "Karstädt (PR), Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.159913,
+                        "longitude": 11.738968
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-02T18:49:00.000+02:00",
+                "arrival": "2019-06-02T20:20:00.000+02:00",
+                "departureDelay": 0,
+                "arrivalDelay": 0,
+                "id": "1|44172|0|86|2062019",
+                "line": {
+                    "type": "line",
+                    "id": "re2",
+                    "fahrtNr": "63990",
+                    "name": "RE2",
+                    "public": true,
+                    "class": 64,
+                    "productCode": 6,
+                    "mode": "train",
+                    "product": "regional",
+                    "operator": {
+                        "type": "operator",
+                        "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                        "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                    },
+                    "symbol": "RE",
+                    "nr": 2,
+                    "metro": false,
+                    "express": true,
+                    "night": false
+                },
+                "direction": "Cottbus, Hbf",
+                "departurePlatform": "3",
+                "arrivalPlatform": "5",
+                "cycle": {
+                    "min": 7200,
+                    "max": 7200,
+                    "nr": 2
+                },
+                "alternatives": [
+                    {
+                        "tripId": "1|44186|0|86|2062019",
+                        "line": {
+                            "type": "line",
+                            "id": "re2",
+                            "fahrtNr": "63994",
+                            "name": "RE2",
+                            "public": true,
+                            "class": 64,
+                            "productCode": 6,
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                            },
+                            "symbol": "RE",
+                            "nr": 2,
+                            "metro": false,
+                            "express": true,
+                            "night": false
+                        },
+                        "direction": "Cottbus, Hauptbahnhof",
+                        "when": "2019-06-02T20:49:00.000+02:00",
+                        "delay": null
+                    },
+                    {
+                        "tripId": "1|44185|0|86|2062019",
+                        "line": {
+                            "type": "line",
+                            "id": "re2",
+                            "fahrtNr": "63998",
+                            "name": "RE2",
+                            "public": true,
+                            "class": 64,
+                            "productCode": 6,
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                            },
+                            "symbol": "RE",
+                            "nr": 2,
+                            "metro": false,
+                            "express": true,
+                            "night": false
+                        },
+                        "direction": "Cottbus, Hauptbahnhof",
+                        "when": "2019-06-02T22:49:00.000+02:00",
+                        "delay": null
+                    }
+                ]
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-02T20:28:00.000+02:00",
+                "arrival": "2019-06-02T20:39:00.000+02:00",
+                "id": "1|35247|34|86|2062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16530",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "1",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=Boberow@L=900215151@a=128@$A=1@O=Karstädt (PR), Bahnhof@L=900215455@a=128@$201906021809$201906021833$Bus 952 $$1$§T$A=1@O=Karstädt (PR), Bahnhof@L=900215455@a=128@$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$201906021849$201906022020$     RE2$$1$§T$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$201906022028$201906022039$      S3$$1$",
+        "cycle": {
+            "min": 7200
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215151",
+                    "name": "Boberow",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.145252,
+                        "longitude": 11.615744
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T06:10:00.000+02:00",
+                "arrival": "2019-06-03T06:51:00.000+02:00",
+                "id": "1|47389|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "975",
+                    "fahrtNr": "3425",
+                    "name": "975",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 975,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Perleberg, Dobberziner Str.",
+                "arrivalPlatform": "2"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000216026",
+                    "name": "Wittenberge, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.002081,
+                        "longitude": 11.762898
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T07:15:00.000+02:00",
+                "arrival": "2019-06-03T07:40:00.000+02:00",
+                "id": "1|61321|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "945",
+                    "fahrtNr": "195",
+                    "name": "945",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 945,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Wittenberge, Bhf",
+                "departurePlatform": "1",
+                "arrivalPlatform": "2",
+                "cycle": {
+                    "min": 3600,
+                    "max": 3600,
+                    "nr": 3
+                }
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000216026",
+                    "name": "Wittenberge, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.002081,
+                        "longitude": 11.762898
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T08:02:00.000+02:00",
+                "arrival": "2019-06-03T08:44:00.000+02:00",
+                "id": "1|61755|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "ec-173",
+                    "fahrtNr": "173",
+                    "name": "EC 173",
+                    "public": true,
+                    "class": 32,
+                    "productCode": 5,
+                    "mode": "train",
+                    "product": "express",
+                    "operator": {
+                        "type": "operator",
+                        "id": "db-regio-ag",
+                        "name": "DB Regio AG"
+                    },
+                    "symbol": "EC",
+                    "nr": 173,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Decin hl.n.",
+                "departurePlatform": "3",
+                "arrivalPlatform": "5",
+                "cycle": {
+                    "min": 7200,
+                    "max": 14400,
+                    "nr": 2
+                },
+                "alternatives": [
+                    {
+                        "tripId": "1|62456|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "ec-379",
+                            "fahrtNr": "379",
+                            "name": "EC 379",
+                            "public": true,
+                            "class": 32,
+                            "productCode": 5,
+                            "mode": "train",
+                            "product": "express",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag",
+                                "name": "DB Regio AG"
+                            },
+                            "symbol": "EC",
+                            "nr": 379,
+                            "metro": false,
+                            "express": false,
+                            "night": false
+                        },
+                        "direction": "Decin hl.n.",
+                        "when": "2019-06-03T10:02:00.000+02:00",
+                        "delay": null
+                    },
+                    {
+                        "tripId": "1|61789|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "ec-177",
+                            "fahrtNr": "177",
+                            "name": "EC 177",
+                            "public": true,
+                            "class": 32,
+                            "productCode": 5,
+                            "mode": "train",
+                            "product": "express",
+                            "operator": {
+                                "type": "operator",
+                                "id": "db-regio-ag",
+                                "name": "DB Regio AG"
+                            },
+                            "symbol": "EC",
+                            "nr": 177,
+                            "metro": false,
+                            "express": false,
+                            "night": false
+                        },
+                        "direction": "Decin hl.n.",
+                        "when": "2019-06-03T14:02:00.000+02:00",
+                        "delay": null
+                    }
+                ]
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T08:48:00.000+02:00",
+                "arrival": "2019-06-03T08:59:00.000+02:00",
+                "id": "1|35246|5|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16565",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "1",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=Boberow@L=900215151@a=128@$A=1@O=Perleberg, ZOB@L=900215712@a=128@$201906030610$201906030651$Bus 975 $$1$§T$A=1@O=Perleberg, ZOB@L=900215712@a=128@$A=1@O=Wittenberge, Bahnhof@L=900216026@a=128@$201906030715$201906030740$Bus 945 $$1$§T$A=1@O=Wittenberge, Bahnhof@L=900216026@a=128@$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$201906030802$201906030844$EC 173  $$1$§T$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$201906030848$201906030859$      S3$$1$",
+        "cycle": {
+            "min": 7200
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215151",
+                    "name": "Boberow",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.145252,
+                        "longitude": 11.615744
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T06:10:00.000+02:00",
+                "arrival": "2019-06-03T06:51:00.000+02:00",
+                "id": "1|47389|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "975",
+                    "fahrtNr": "3425",
+                    "name": "975",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 975,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Perleberg, Dobberziner Str.",
+                "arrivalPlatform": "2"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215110",
+                    "name": "Bad Wilsnack, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.960137,
+                        "longitude": 11.949451
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T07:41:00.000+02:00",
+                "arrival": "2019-06-03T08:06:00.000+02:00",
+                "id": "1|47166|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "950",
+                    "fahrtNr": "3255",
+                    "name": "950",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 950,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Bad Wilsnack, Bhf",
+                "departurePlatform": "4",
+                "cycle": {
+                    "min": 6660,
+                    "max": 7200,
+                    "nr": 2
+                },
+                "alternatives": [
+                    {
+                        "tripId": "1|47163|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "950",
+                            "fahrtNr": "3253",
+                            "name": "950",
+                            "public": true,
+                            "class": 8,
+                            "productCode": 3,
+                            "mode": "bus",
+                            "product": "bus",
+                            "operator": {
+                                "type": "operator",
+                                "id": "prignitzbus",
+                                "name": "prignitzbus"
+                            },
+                            "symbol": null,
+                            "nr": 950,
+                            "metro": false,
+                            "express": false,
+                            "night": false
+                        },
+                        "direction": "Bad Wilsnack, Bahnhof",
+                        "when": "2019-06-03T09:32:00.000+02:00",
+                        "delay": null
+                    },
+                    {
+                        "tripId": "1|62643|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "950",
+                            "fahrtNr": "463",
+                            "name": "950",
+                            "public": true,
+                            "class": 8,
+                            "productCode": 3,
+                            "mode": "bus",
+                            "product": "bus",
+                            "operator": {
+                                "type": "operator",
+                                "id": "prignitzbus",
+                                "name": "prignitzbus"
+                            },
+                            "symbol": null,
+                            "nr": 950,
+                            "metro": false,
+                            "express": false,
+                            "night": false
+                        },
+                        "direction": "Bad Wilsnack, Bahnhof",
+                        "when": "2019-06-03T11:32:00.000+02:00",
+                        "delay": null
+                    }
+                ]
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215110",
+                    "name": "Bad Wilsnack, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.960137,
+                        "longitude": 11.949451
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T08:13:00.000+02:00",
+                "arrival": "2019-06-03T09:20:00.000+02:00",
+                "id": "1|44112|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "re2",
+                    "fahrtNr": "63968",
+                    "name": "RE2",
+                    "public": true,
+                    "class": 64,
+                    "productCode": 6,
+                    "mode": "train",
+                    "product": "regional",
+                    "operator": {
+                        "type": "operator",
+                        "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                        "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                    },
+                    "symbol": "RE",
+                    "nr": 2,
+                    "metro": false,
+                    "express": true,
+                    "night": false
+                },
+                "direction": "Cottbus, Hbf",
+                "departurePlatform": "2",
+                "arrivalPlatform": "5",
+                "cycle": {
+                    "min": 3480,
+                    "max": 3720,
+                    "nr": 3
+                }
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T09:28:00.000+02:00",
+                "arrival": "2019-06-03T09:39:00.000+02:00",
+                "id": "1|35247|1|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16563",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "1",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=Boberow@L=900215151@a=128@$A=1@O=Perleberg, ZOB@L=900215712@a=128@$201906030610$201906030651$Bus 975 $$1$§T$A=1@O=Perleberg, ZOB@L=900215712@a=128@$A=1@O=Bad Wilsnack, Bahnhof@L=900215110@a=128@$201906030741$201906030806$Bus 950 $$1$§T$A=1@O=Bad Wilsnack, Bahnhof@L=900215110@a=128@$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$201906030813$201906030920$     RE2$$1$§T$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$201906030928$201906030939$      S3$$1$",
+        "cycle": {
+            "min": 6660
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215151",
+                    "name": "Boberow",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.145252,
+                        "longitude": 11.615744
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T06:10:00.000+02:00",
+                "arrival": "2019-06-03T06:51:00.000+02:00",
+                "id": "1|47389|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "975",
+                    "fahrtNr": "3425",
+                    "name": "975",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 975,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Perleberg, Dobberziner Str.",
+                "arrivalPlatform": "2"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215712",
+                    "name": "Perleberg, ZOB",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071154,
+                        "longitude": 11.850938
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215696",
+                    "name": "Perleberg, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071252,
+                        "longitude": 11.852322
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T06:51:00.000+02:00",
+                "arrival": "2019-06-03T06:54:00.000+02:00",
+                "mode": "walking",
+                "public": true,
+                "distance": 58
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215696",
+                    "name": "Perleberg, Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.071252,
+                        "longitude": 11.852322
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T07:16:00.000+02:00",
+                "arrival": "2019-06-03T09:36:00.000+02:00",
+                "id": "1|2003|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "re6",
+                    "fahrtNr": "135",
+                    "name": "RE6",
+                    "public": true,
+                    "class": 64,
+                    "productCode": 6,
+                    "mode": "train",
+                    "product": "regional",
+                    "operator": {
+                        "type": "operator",
+                        "id": "db-regio-ag",
+                        "name": "DB Regio AG"
+                    },
+                    "symbol": "RE",
+                    "nr": 6,
+                    "metro": false,
+                    "express": true,
+                    "night": false
+                },
+                "direction": "S+U Gesundbrunnen",
+                "departurePlatform": "1",
+                "arrivalPlatform": "6"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T09:48:00.000+02:00",
+                "arrival": "2019-06-03T09:59:00.000+02:00",
+                "id": "1|35247|2|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16562",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "1",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=Boberow@L=900215151@a=128@$A=1@O=Perleberg, ZOB@L=900215712@a=128@$201906030610$201906030651$Bus 975 $$1$§W$A=1@O=Perleberg, ZOB@L=900215712@a=128@$A=1@O=Perleberg, Bahnhof@L=900215696@a=128@$201906030651$201906030654$$$1$§T$A=1@O=Perleberg, Bahnhof@L=900215696@a=128@$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$201906030716$201906030936$     RE6$$1$§T$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$201906030948$201906030959$      S3$$1$",
+        "cycle": {
+            "min": 600
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215151",
+                    "name": "Boberow",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.145252,
+                        "longitude": 11.615744
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000215455",
+                    "name": "Karstädt (PR), Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.159913,
+                        "longitude": 11.738968
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T07:10:00.000+02:00",
+                "arrival": "2019-06-03T07:39:00.000+02:00",
+                "id": "1|47194|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "953",
+                    "fahrtNr": "3911",
+                    "name": "953",
+                    "public": true,
+                    "class": 8,
+                    "productCode": 3,
+                    "mode": "bus",
+                    "product": "bus",
+                    "operator": {
+                        "type": "operator",
+                        "id": "prignitzbus",
+                        "name": "prignitzbus"
+                    },
+                    "symbol": null,
+                    "nr": 953,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "Karstädt (PR), Bhf"
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000215455",
+                    "name": "Karstädt (PR), Bhf",
+                    "location": {
+                        "type": "location",
+                        "latitude": 53.159913,
+                        "longitude": 11.738968
+                    },
+                    "products": {
+                        "suburban": false,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T08:50:00.000+02:00",
+                "arrival": "2019-06-03T10:20:00.000+02:00",
+                "id": "1|44173|0|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "re2",
+                    "fahrtNr": "63970",
+                    "name": "RE2",
+                    "public": true,
+                    "class": 64,
+                    "productCode": 6,
+                    "mode": "train",
+                    "product": "regional",
+                    "operator": {
+                        "type": "operator",
+                        "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                        "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                    },
+                    "symbol": "RE",
+                    "nr": 2,
+                    "metro": false,
+                    "express": true,
+                    "night": false
+                },
+                "direction": "Cottbus, Hbf",
+                "departurePlatform": "3",
+                "arrivalPlatform": "5",
+                "cycle": {
+                    "min": 7140,
+                    "max": 7200,
+                    "nr": 2
+                },
+                "alternatives": [
+                    {
+                        "tripId": "1|44176|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "re2",
+                            "fahrtNr": "63974",
+                            "name": "RE2",
+                            "public": true,
+                            "class": 64,
+                            "productCode": 6,
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                            },
+                            "symbol": "RE",
+                            "nr": 2,
+                            "metro": false,
+                            "express": true,
+                            "night": false
+                        },
+                        "direction": "Cottbus, Hauptbahnhof",
+                        "when": "2019-06-03T10:49:00.000+02:00",
+                        "delay": null
+                    },
+                    {
+                        "tripId": "1|44177|0|86|3062019",
+                        "line": {
+                            "type": "line",
+                            "id": "re2",
+                            "fahrtNr": "63978",
+                            "name": "RE2",
+                            "public": true,
+                            "class": 64,
+                            "productCode": 6,
+                            "mode": "train",
+                            "product": "regional",
+                            "operator": {
+                                "type": "operator",
+                                "id": "odeg-ostdeutsche-eisenbahn-gmbh",
+                                "name": "ODEG Ostdeutsche Eisenbahn GmbH"
+                            },
+                            "symbol": "RE",
+                            "nr": 2,
+                            "metro": false,
+                            "express": true,
+                            "night": false
+                        },
+                        "direction": "Cottbus, Hauptbahnhof",
+                        "when": "2019-06-03T12:49:00.000+02:00",
+                        "delay": null
+                    }
+                ]
+            },
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000029101",
+                    "name": "S Spandau",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.534794,
+                        "longitude": 13.197477
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": true,
+                        "regional": true
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "departure": "2019-06-03T10:28:00.000+02:00",
+                "arrival": "2019-06-03T10:39:00.000+02:00",
+                "id": "1|35247|4|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16560",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "1",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=Boberow@L=900215151@a=128@$A=1@O=Karstädt (PR), Bahnhof@L=900215455@a=128@$201906030710$201906030739$Bus 953 $$1$§T$A=1@O=Karstädt (PR), Bahnhof@L=900215455@a=128@$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$201906030850$201906031020$     RE2$$1$§T$A=1@O=S Spandau Bhf (Berlin)@L=900029101@a=128@$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$201906031028$201906031039$      S3$$1$",
+        "cycle": {
+            "min": 7140
+        }
+    }
+]

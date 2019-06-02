@@ -1,0 +1,74 @@
+{
+    "origin": {
+        "type": "stop",
+        "id": "900000025423",
+        "name": "S Messe Süd",
+        "location": {
+            "type": "location",
+            "latitude": 52.498774,
+            "longitude": 13.270451
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    "destination": {
+        "type": "stop",
+        "id": "900000100003",
+        "name": "S+U Alexanderplatz",
+        "location": {
+            "type": "location",
+            "latitude": 52.521508,
+            "longitude": 13.411267
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": true
+        }
+    },
+    "departure": "2019-06-02T15:30:00.000+02:00",
+    "arrival": "2019-06-02T15:51:00.000+02:00",
+    "departureDelay": 0,
+    "arrivalDelay": 0,
+    "id": "1|37865|25|86|2062019",
+    "line": {
+        "type": "line",
+        "id": "s9",
+        "fahrtNr": "28993",
+        "name": "S9",
+        "public": true,
+        "class": 1,
+        "productCode": 0,
+        "mode": "train",
+        "product": "suburban",
+        "operator": {
+            "type": "operator",
+            "id": "s-bahn-berlin-gmbh",
+            "name": "S-Bahn Berlin GmbH"
+        },
+        "symbol": "S",
+        "nr": 9,
+        "metro": false,
+        "express": false,
+        "night": false
+    },
+    "direction": "S Flughafen Berlin-Schönefeld",
+    "departurePlatform": "1",
+    "arrivalPlatform": "3",
+    "cycle": {
+        "min": 600,
+        "max": 600,
+        "nr": 13
+    }
+}

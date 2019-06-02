@@ -2,6 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:berlin_transport/widgets/widgets.dart';
+
 /// Data types/models
 import 'package:meta/meta.dart';
 
@@ -105,7 +107,8 @@ class Stop extends Place {
           if (json['products'][productKey]) _stopTypeFromString(productKey)
       ],
       lines: [
-        for (var line in json['lines']) Line.fromJson(line),
+        if (json.containsKey('lines'))
+          for (var line in json['lines']) Line.fromJson(line),
       ],
     );
   }
@@ -125,3 +128,50 @@ enum StopType {
 /// Converts string to enums
 StopType _stopTypeFromString(String str) =>
     StopType.values.firstWhere((e) => e.toString() == 'StopType.$str');
+
+class Journey {
+  const Journey({@required this.legs});
+  final List<Leg> legs;
+
+  factory Journey.fromJson(Map<String, dynamic> json) {
+    assert(json.containsKey('type') && json['type'] == 'journey');
+    return Journey(
+      legs: [for (var leg in json['legs']) Leg.fromJson(leg)],
+    );
+  }
+}
+
+class Leg {
+  const Leg({
+    @required this.origin,
+    @required this.destination,
+    @required this.departureTime,
+    @required this.arrivalTime,
+    @required this.line,
+    this.direction,
+  });
+  final Stop origin;
+  final Stop destination;
+  final DateTime departureTime;
+  final DateTime arrivalTime;
+  final Line line;
+  final String direction;
+
+  factory Leg.fromJson(Map<String, dynamic> json) => Leg(
+        origin: Stop.fromJson(json['origin']),
+        destination: Stop.fromJson(json['destination']),
+        departureTime: DateTime.parse(json['departure']),
+        arrivalTime: DateTime.parse(json['arrival']),
+        line: Line.fromJson(json['line']),
+        direction: json['direction'],
+      );
+
+  @override
+  bool operator ==(obj) =>
+      obj is Leg &&
+      departureTime == obj.departureTime &&
+      arrivalTime == obj.arrivalTime;
+
+  @override
+  int get hashCode => departureTime.hashCode ^ arrivalTime.hashCode;
+}

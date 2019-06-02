@@ -5,6 +5,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:berlin_transport/theme.dart';
+import 'package:berlin_transport/widgets/widgets.dart';
 import 'package:berlin_transport/data/data.dart' as data;
 import 'package:berlin_transport/utils.dart';
 
@@ -47,7 +48,7 @@ class Leg extends StatelessWidget {
             Text('${prettyTime(leg.departureTime)}'),
             Padding(
               padding: const EdgeInsets.all(5),
-              child: Icon(Icons.train),
+              child: TransportIcon(leg.line?.type),
             ),
             Text('${prettyTime(leg.arrivalTime)}'),
           ],

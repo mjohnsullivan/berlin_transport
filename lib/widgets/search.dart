@@ -120,7 +120,7 @@ class StopTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       title: Text(stop.name),
-      leading: Icon(Icons.train),
+      leading: const Icon(Icons.train),
       subtitle: Text(stop.typesAsStrings.join(', ')),
       onTap: onTap,
     );

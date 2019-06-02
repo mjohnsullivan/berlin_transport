@@ -7,19 +7,7 @@
 import 'dart:ui';
 import 'package:flutter/foundation.dart';
 
-import 'package:berlin_transport/api.dart';
 import 'package:berlin_transport/data.dart';
-
-/// DEPRECATED
-class PlacesNotifier with ChangeNotifier {
-  var _places = <Place>[];
-  List<Place> get places => _places;
-
-  void search(String query) async {
-    _places = await locations(query);
-    notifyListeners();
-  }
-}
 
 /// Journey data
 class JourneyNotifier with ChangeNotifier {
@@ -40,7 +28,7 @@ class JourneyNotifier with ChangeNotifier {
   }
 }
 
-/// Prefences
+/// Preferences
 class PrefsNotifier with ChangeNotifier {
   // Offline
   bool _offline = false;
@@ -55,6 +43,17 @@ class PrefsNotifier with ChangeNotifier {
   Locale get locale => _locale;
   set locale(Locale value) {
     _locale = value;
+    notifyListeners();
+  }
+}
+
+/// App state
+class AppStateNotifier with ChangeNotifier {
+  // Splash screen
+  bool _showSplash = true;
+  bool get showSplash => _showSplash;
+  hideSplash() {
+    _showSplash = false;
     notifyListeners();
   }
 }

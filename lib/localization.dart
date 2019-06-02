@@ -26,6 +26,7 @@ class AppLocalizations {
       'language': 'Language',
       'english': 'English',
       'german': 'German',
+      'tap_continue': 'Tap to continue',
     },
     'de': {
       'hello': 'Hallo Welt',
@@ -40,6 +41,7 @@ class AppLocalizations {
       'language': 'Sprache',
       'english': 'Englisch',
       'german': 'Deutsche',
+      'tap_continue': 'Tippen Sie, um fortzufahren',
     },
   };
 
@@ -58,6 +60,8 @@ class AppLocalizations {
   String get language => _localizedValues[locale.languageCode]['language'];
   String get english => _localizedValues[locale.languageCode]['english'];
   String get german => _localizedValues[locale.languageCode]['german'];
+  String get tapContinue =>
+      _localizedValues[locale.languageCode]['tap_continue'];
 }
 
 class AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

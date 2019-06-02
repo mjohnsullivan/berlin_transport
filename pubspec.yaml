@@ -14,7 +14,13 @@ dependencies:
   
   http: ^0.12.0
   provider: ^2.0.1
-  flare_flutter: ^1.5.1
+  
+  # Using git version for Flutter beta support
+  flare_flutter:
+    git:
+      url: git://github.com/2d-inc/Flare-Flutter.git
+      ref: dev
+      path: flare_flutter
 
 dev_dependencies:
   flutter_test:

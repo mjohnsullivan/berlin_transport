@@ -2,13 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
+import 'package:berlin_transport/widgets/splash.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'package:berlin_transport/widgets/widgets.dart';
-import 'package:berlin_transport/animations.dart';
 import 'package:berlin_transport/search.dart';
 import 'package:berlin_transport/theme.dart';
 import 'package:berlin_transport/widgets/prefs.dart';
@@ -30,8 +30,12 @@ class BerlinTransportApp extends StatelessWidget {
         ChangeNotifierProvider(
           builder: (_) => JourneyNotifier(),
         ),
+        ChangeNotifierProvider(
+          builder: (_) => AppStateNotifier(),
+        ),
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         onGenerateTitle: (context) => AppLocalizations.of(context).title,
         localizationsDelegates: [
           const AppLocalizationsDelegate(),
@@ -43,7 +47,12 @@ class BerlinTransportApp extends StatelessWidget {
           const Locale('de'),
         ],
         theme: appTheme,
-        home: OverrideLocalization(child: BerlinTransportPage()),
+        home: OverrideLocalization(
+          child: Consumer<AppStateNotifier>(
+            builder: (context, notifier, _) =>
+                notifier.showSplash ? SplashScreen() : BerlinTransportPage(),
+          ),
+        ),
       ),
     );
   }

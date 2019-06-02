@@ -42,7 +42,7 @@ class _TransportAnimationState extends State<TransportAnimation> {
     return FlareActor(
       _animationAssetPath(widget.type),
       alignment: Alignment.center,
-      fit: BoxFit.contain,
+      fit: BoxFit.fitWidth,
       animation: _animationName,
     );
   }

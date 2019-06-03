@@ -1,11 +1,11 @@
 {
     "type": "stop",
-    "id": "900000100003",
-    "name": "S+U Alexanderplatz",
+    "id": "900000025423",
+    "name": "S Messe Süd",
     "location": {
         "type": "location",
-        "latitude": 52.521508,
-        "longitude": 13.411267
+        "latitude": 52.498774,
+        "longitude": 13.270451
     },
     "products": {
         "suburban": true,
@@ -14,6 +14,6 @@
         "bus": true,
         "ferry": false,
         "express": false,
-        "regional": true
+        "regional": false
     }
 }

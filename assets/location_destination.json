@@ -1,12 +1,12 @@
 [
     {
         "type": "stop",
-        "id": "900000100003",
-        "name": "S+U Alexanderplatz",
+        "id": "900000024106",
+        "name": "S Messe Nord/ICC",
         "location": {
             "type": "location",
-            "latitude": 52.521508,
-            "longitude": 13.411267
+            "latitude": 52.506451,
+            "longitude": 13.283045
         },
         "products": {
             "suburban": true,
@@ -15,23 +15,61 @@
             "bus": true,
             "ferry": false,
             "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000025423",
+        "name": "S Messe Süd",
+        "location": {
+            "type": "location",
+            "latitude": 52.498774,
+            "longitude": 13.270451
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000550318",
+        "name": "Leipzig, Messe",
+        "location": {
+            "type": "location",
+            "latitude": 51.396104,
+            "longitude": 12.389077
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": true,
             "regional": true
         }
     },
     {
         "type": "stop",
-        "id": "900000100024",
-        "name": "S+U Alexanderplatz/Dircksenstr.",
+        "id": "900000360097",
+        "name": "Frankfurt (Oder), Messegelände",
         "location": {
             "type": "location",
-            "latitude": 52.521823,
-            "longitude": 13.411232
+            "latitude": 52.347108,
+            "longitude": 14.499439
         },
         "products": {
             "suburban": false,
             "subway": false,
             "tram": true,
-            "bus": false,
+            "bus": true,
             "ferry": false,
             "express": false,
             "regional": false
@@ -39,50 +77,12 @@
     },
     {
         "type": "stop",
-        "id": "900000100026",
-        "name": "S+U Alexanderplatz/Gontardstr.",
+        "id": "900000360011",
+        "name": "Frankfurt (Oder), Am Messegelände",
         "location": {
             "type": "location",
-            "latitude": 52.521059,
-            "longitude": 13.41125
-        },
-        "products": {
-            "suburban": false,
-            "subway": false,
-            "tram": true,
-            "bus": false,
-            "ferry": false,
-            "express": false,
-            "regional": false
-        }
-    },
-    {
-        "type": "stop",
-        "id": "900000100005",
-        "name": "U Alexanderplatz [Tram]",
-        "location": {
-            "type": "location",
-            "latitude": 52.522389,
-            "longitude": 13.414495
-        },
-        "products": {
-            "suburban": false,
-            "subway": false,
-            "tram": true,
-            "bus": false,
-            "ferry": false,
-            "express": false,
-            "regional": false
-        }
-    },
-    {
-        "type": "stop",
-        "id": "900000100031",
-        "name": "S+U Alexanderplatz/Memhardstr.",
-        "location": {
-            "type": "location",
-            "latitude": 52.523099,
-            "longitude": 13.410962
+            "latitude": 52.345688,
+            "longitude": 14.50165
         },
         "products": {
             "suburban": false,
@@ -96,12 +96,12 @@
     },
     {
         "type": "stop",
-        "id": "900000100006",
-        "name": "S+U Alexanderplatz/Grunerstr.",
+        "id": "900000360098",
+        "name": "Frankfurt (Oder), Messering",
         "location": {
             "type": "location",
-            "latitude": 52.520412,
-            "longitude": 13.414432
+            "latitude": 52.339755,
+            "longitude": 14.502953
         },
         "products": {
             "suburban": false,
@@ -114,31 +114,79 @@
         }
     },
     {
-        "type": "location",
-        "latitude": 52.523549,
-        "longitude": 13.418441,
-        "name": "Berlin, Holiday Inn Centre Alexanderplatz****",
-        "id": "900980709"
+        "type": "stop",
+        "id": "900000026204",
+        "name": "Messedamm/ZOB",
+        "location": {
+            "type": "location",
+            "latitude": 52.507,
+            "longitude": 13.280699
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
     },
     {
-        "type": "location",
-        "latitude": 52.524556,
-        "longitude": 13.420266,
-        "name": "Berlin, Hotel Agon am Alexanderplatz",
-        "id": "900980176"
+        "type": "stop",
+        "id": "900000025552",
+        "name": "Messegelände/ICC",
+        "location": {
+            "type": "location",
+            "latitude": 52.504698,
+            "longitude": 13.279602
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
     },
     {
-        "type": "location",
-        "latitude": 52.524358,
-        "longitude": 13.420445,
-        "name": "Berlin, Mercure Hotel Berlin am Alexanderplatz***",
-        "id": "900980824"
+        "type": "stop",
+        "id": "900000051151",
+        "name": "Messelstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.473389,
+            "longitude": 13.278551
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
     },
     {
-        "type": "location",
-        "latitude": 52.523306,
-        "longitude": 13.43704,
-        "name": "Berlin, NH Hotel Berlin-Alexanderplatz****",
-        "id": "900980240"
+        "type": "stop",
+        "id": "900000025551",
+        "name": "Messegelände/Verwaltung",
+        "location": {
+            "type": "location",
+            "latitude": 52.501507,
+            "longitude": 13.274919
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
     }
 ]

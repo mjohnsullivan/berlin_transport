@@ -2,12 +2,13 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:berlin_transport/data/data.dart';
 import 'package:flutter/material.dart';
 
-import 'package:berlin_transport/data/api.dart';
-import 'package:berlin_transport/data/localization.dart';
+import 'package:provider/provider.dart';
 
+import 'package:berlin_transport/data/models.dart';
+import 'package:berlin_transport/data/localization.dart';
+import 'package:berlin_transport/data/data.dart';
 import 'package:berlin_transport/theme.dart' as theme;
 
 Future<Place> showPlacesSearch(BuildContext context) async =>
@@ -40,8 +41,9 @@ class PlacesSearchDelegate extends SearchDelegate<Place> {
 
   @override
   Widget buildResults(BuildContext context) {
+    final notifier = Provider.of<JourneyNotifier>(context);
     return FutureBuilder(
-        future: locations(query),
+        future: notifier.searchPlaces(query),
         builder: (context, AsyncSnapshot<List<Place>> snapshot) {
           if (snapshot.hasData) {
             return Container(

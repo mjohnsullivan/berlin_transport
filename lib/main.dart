@@ -81,9 +81,10 @@ class BerlinTransportPage extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Departure(),
+          SizedBox(height: 5),
+          Origin(),
           SizedBox(height: 15),
-          Arrival(),
+          Destination(),
           SizedBox(height: 15),
           Expanded(
             child: JourneyPanel(),
@@ -94,33 +95,33 @@ class BerlinTransportPage extends StatelessWidget {
   }
 }
 
-class Departure extends StatelessWidget {
+class Origin extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final notifier = Provider.of<JourneyNotifier>(context);
     return GestureDetector(
-      child: notifier.departure != null
-          ? EmbossedText(notifier.departure.name)
-          : EmbossedText(AppLocalizations.of(context).departure),
-      onTap: () => showPlacesSearch(context).then(
-            (place) => notifier.departure = place,
-          ),
-    );
+        child: notifier.departure != null
+            ? EmbossedText(notifier.departure.name)
+            : EmbossedText(AppLocalizations.of(context).origin),
+        onTap: () {
+          notifier.searchType = SearchType.origin;
+          showPlacesSearch(context).then((place) => notifier.departure = place);
+        });
   }
 }
 
-class Arrival extends StatelessWidget {
+class Destination extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final notifier = Provider.of<JourneyNotifier>(context);
     return GestureDetector(
-      child: notifier.arrival != null
-          ? EmbossedText(notifier.arrival.name)
-          : EmbossedText(AppLocalizations.of(context).arrival),
-      onTap: () => showPlacesSearch(context).then(
-            (place) => notifier.arrival = place,
-          ),
-    );
+        child: notifier.arrival != null
+            ? EmbossedText(notifier.arrival.name)
+            : EmbossedText(AppLocalizations.of(context).destination),
+        onTap: () {
+          notifier.searchType = SearchType.destination;
+          showPlacesSearch(context).then((place) => notifier.arrival = place);
+        });
   }
 }
 

@@ -12,8 +12,8 @@ dependencies:
   flutter_localizations:
     sdk: flutter
   
-  http: ^0.12.0
-  provider: ^2.0.1
+  http: ^0.12.0+2
+  provider: ^2.0.1+1
   
   # Using git version for Flutter beta support
   flare_flutter:
@@ -30,6 +30,12 @@ flutter:
   uses-material-design: true
 
   assets:
+    # Cached api results
+    - assets/location_origin.json
+    - assets/location_destination.json
+    - assets/journey.json
+
+    # Animations
     - assets/flare/bus.flr
     - assets/flare/metro.flr
     - assets/flare/train.flr

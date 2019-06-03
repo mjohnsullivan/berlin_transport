@@ -73,7 +73,6 @@ class LocalePref extends StatelessWidget {
             ),
       ),
     );
-    ;
   }
 }
 
@@ -85,10 +84,10 @@ class OfflinePref extends StatelessWidget {
       child: Row(
         children: [
           Expanded(child: Text(AppLocalizations.of(context).offline)),
-          Consumer<PrefsNotifier>(
+          Consumer<JourneyNotifier>(
             builder: (context, notifier, _) => Switch(
-                  value: notifier.offline,
-                  onChanged: (val) => notifier.offline = val,
+                  value: notifier.useCache,
+                  onChanged: (val) => notifier.useCache = val,
                 ),
           )
         ],

@@ -18,8 +18,8 @@ class AppLocalizations {
       'title': 'Berlin Transport App',
       'search': 'Search',
       'searching_message': 'searching ...',
-      'departure': 'Departure',
-      'arrival': 'Arrival',
+      'origin': 'Origin',
+      'destination': 'Destination',
       'searchHintText': 'Please enter a search term',
       'offline': 'offline',
       'preferences': 'Preferences',
@@ -33,8 +33,8 @@ class AppLocalizations {
       'title': 'Berliner Verkehr App',
       'search': 'Suche',
       'searching_message': 'suche ...',
-      'departure': 'Abfahrt',
-      'arrival': 'Ankunft',
+      'origin': 'Ursprung',
+      'destination': 'Ziel',
       'searchHintText': 'Bitte geben Sie einen Suchbegriff ein',
       'offline': 'offline',
       'preferences': 'Vorlieben',
@@ -50,8 +50,9 @@ class AppLocalizations {
   String get search => _localizedValues[locale.languageCode]['search'];
   String get searchMessage =>
       _localizedValues[locale.languageCode]['searching_message'];
-  String get departure => _localizedValues[locale.languageCode]['departure'];
-  String get arrival => _localizedValues[locale.languageCode]['arrival'];
+  String get origin => _localizedValues[locale.languageCode]['origin'];
+  String get destination =>
+      _localizedValues[locale.languageCode]['destination'];
   String get searchHintText =>
       _localizedValues[locale.languageCode]['searchHintText'];
   String get offline => _localizedValues[locale.languageCode]['offline'];

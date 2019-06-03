@@ -41,11 +41,260 @@
                         "regional": true
                     }
                 },
-                "departure": "2019-06-02T15:20:00.000+02:00",
-                "arrival": "2019-06-02T15:41:00.000+02:00",
+                "departure": "2019-06-03T14:50:00.000+02:00",
+                "arrival": "2019-06-03T15:11:00.000+02:00",
                 "departureDelay": 0,
                 "arrivalDelay": 0,
-                "id": "1|35247|18|86|2062019",
+                "id": "1|37865|23|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s9",
+                    "fahrtNr": "28995",
+                    "name": "S9",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 9,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Flughafen Berlin-Schönefeld",
+                "departurePlatform": "1",
+                "arrivalPlatform": "3",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906031450$201906031511$      S9$$1$",
+        "cycle": {
+            "min": 600
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000100003",
+                    "name": "S+U Alexanderplatz",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.521508,
+                        "longitude": 13.411267
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T15:00:00.000+02:00",
+                "arrival": "2019-06-03T15:21:00.000+02:00",
+                "departureDelay": 0,
+                "arrivalDelay": 0,
+                "id": "1|35247|17|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s3",
+                    "fahrtNr": "16547",
+                    "name": "S3",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 3,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Erkner",
+                "departurePlatform": "1",
+                "arrivalPlatform": "3",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906031500$201906031521$      S3$$1$",
+        "cycle": {
+            "min": 600
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000100003",
+                    "name": "S+U Alexanderplatz",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.521508,
+                        "longitude": 13.411267
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T15:10:00.000+02:00",
+                "arrival": "2019-06-03T15:31:00.000+02:00",
+                "departureDelay": 0,
+                "arrivalDelay": 0,
+                "id": "1|37865|24|86|3062019",
+                "line": {
+                    "type": "line",
+                    "id": "s9",
+                    "fahrtNr": "28994",
+                    "name": "S9",
+                    "public": true,
+                    "class": 1,
+                    "productCode": 0,
+                    "mode": "train",
+                    "product": "suburban",
+                    "operator": {
+                        "type": "operator",
+                        "id": "s-bahn-berlin-gmbh",
+                        "name": "S-Bahn Berlin GmbH"
+                    },
+                    "symbol": "S",
+                    "nr": 9,
+                    "metro": false,
+                    "express": false,
+                    "night": false
+                },
+                "direction": "S Flughafen Berlin-Schönefeld",
+                "departurePlatform": "1",
+                "arrivalPlatform": "3",
+                "cycle": {
+                    "min": 600,
+                    "max": 600,
+                    "nr": 13
+                }
+            }
+        ],
+        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906031510$201906031531$      S9$$1$",
+        "cycle": {
+            "min": 600
+        }
+    },
+    {
+        "type": "journey",
+        "legs": [
+            {
+                "origin": {
+                    "type": "stop",
+                    "id": "900000025423",
+                    "name": "S Messe Süd",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.498774,
+                        "longitude": 13.270451
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": false
+                    }
+                },
+                "destination": {
+                    "type": "stop",
+                    "id": "900000100003",
+                    "name": "S+U Alexanderplatz",
+                    "location": {
+                        "type": "location",
+                        "latitude": 52.521508,
+                        "longitude": 13.411267
+                    },
+                    "products": {
+                        "suburban": true,
+                        "subway": false,
+                        "tram": false,
+                        "bus": true,
+                        "ferry": false,
+                        "express": false,
+                        "regional": true
+                    }
+                },
+                "departure": "2019-06-03T15:20:00.000+02:00",
+                "arrival": "2019-06-03T15:41:00.000+02:00",
+                "departureDelay": 0,
+                "arrivalDelay": 0,
+                "id": "1|35247|18|86|3062019",
                 "line": {
                     "type": "line",
                     "id": "s3",
@@ -77,7 +326,7 @@
                 }
             }
         ],
-        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906021520$201906021541$      S3$$1$",
+        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906031520$201906031541$      S3$$1$",
         "cycle": {
             "min": 600
         }
@@ -124,11 +373,11 @@
                         "regional": true
                     }
                 },
-                "departure": "2019-06-02T15:30:00.000+02:00",
-                "arrival": "2019-06-02T15:51:00.000+02:00",
+                "departure": "2019-06-03T15:30:00.000+02:00",
+                "arrival": "2019-06-03T15:51:00.000+02:00",
                 "departureDelay": 0,
                 "arrivalDelay": 0,
-                "id": "1|37865|25|86|2062019",
+                "id": "1|37865|25|86|3062019",
                 "line": {
                     "type": "line",
                     "id": "s9",
@@ -160,256 +409,7 @@
                 }
             }
         ],
-        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906021530$201906021551$      S9$$1$",
-        "cycle": {
-            "min": 600
-        }
-    },
-    {
-        "type": "journey",
-        "legs": [
-            {
-                "origin": {
-                    "type": "stop",
-                    "id": "900000025423",
-                    "name": "S Messe Süd",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.498774,
-                        "longitude": 13.270451
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": false
-                    }
-                },
-                "destination": {
-                    "type": "stop",
-                    "id": "900000100003",
-                    "name": "S+U Alexanderplatz",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.521508,
-                        "longitude": 13.411267
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": true
-                    }
-                },
-                "departure": "2019-06-02T15:40:00.000+02:00",
-                "arrival": "2019-06-02T16:01:00.000+02:00",
-                "departureDelay": 0,
-                "arrivalDelay": 0,
-                "id": "1|35247|19|86|2062019",
-                "line": {
-                    "type": "line",
-                    "id": "s3",
-                    "fahrtNr": "16545",
-                    "name": "S3",
-                    "public": true,
-                    "class": 1,
-                    "productCode": 0,
-                    "mode": "train",
-                    "product": "suburban",
-                    "operator": {
-                        "type": "operator",
-                        "id": "s-bahn-berlin-gmbh",
-                        "name": "S-Bahn Berlin GmbH"
-                    },
-                    "symbol": "S",
-                    "nr": 3,
-                    "metro": false,
-                    "express": false,
-                    "night": false
-                },
-                "direction": "S Erkner",
-                "departurePlatform": "1",
-                "arrivalPlatform": "3",
-                "cycle": {
-                    "min": 600,
-                    "max": 600,
-                    "nr": 13
-                }
-            }
-        ],
-        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906021540$201906021601$      S3$$1$",
-        "cycle": {
-            "min": 600
-        }
-    },
-    {
-        "type": "journey",
-        "legs": [
-            {
-                "origin": {
-                    "type": "stop",
-                    "id": "900000025423",
-                    "name": "S Messe Süd",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.498774,
-                        "longitude": 13.270451
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": false
-                    }
-                },
-                "destination": {
-                    "type": "stop",
-                    "id": "900000100003",
-                    "name": "S+U Alexanderplatz",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.521508,
-                        "longitude": 13.411267
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": true
-                    }
-                },
-                "departure": "2019-06-02T15:50:00.000+02:00",
-                "arrival": "2019-06-02T16:11:00.000+02:00",
-                "departureDelay": 0,
-                "arrivalDelay": 0,
-                "id": "1|37865|26|86|2062019",
-                "line": {
-                    "type": "line",
-                    "id": "s9",
-                    "fahrtNr": "28992",
-                    "name": "S9",
-                    "public": true,
-                    "class": 1,
-                    "productCode": 0,
-                    "mode": "train",
-                    "product": "suburban",
-                    "operator": {
-                        "type": "operator",
-                        "id": "s-bahn-berlin-gmbh",
-                        "name": "S-Bahn Berlin GmbH"
-                    },
-                    "symbol": "S",
-                    "nr": 9,
-                    "metro": false,
-                    "express": false,
-                    "night": false
-                },
-                "direction": "S Flughafen Berlin-Schönefeld",
-                "departurePlatform": "1",
-                "arrivalPlatform": "3",
-                "cycle": {
-                    "min": 600,
-                    "max": 600,
-                    "nr": 13
-                }
-            }
-        ],
-        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906021550$201906021611$      S9$$1$",
-        "cycle": {
-            "min": 600
-        }
-    },
-    {
-        "type": "journey",
-        "legs": [
-            {
-                "origin": {
-                    "type": "stop",
-                    "id": "900000025423",
-                    "name": "S Messe Süd",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.498774,
-                        "longitude": 13.270451
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": false
-                    }
-                },
-                "destination": {
-                    "type": "stop",
-                    "id": "900000100003",
-                    "name": "S+U Alexanderplatz",
-                    "location": {
-                        "type": "location",
-                        "latitude": 52.521508,
-                        "longitude": 13.411267
-                    },
-                    "products": {
-                        "suburban": true,
-                        "subway": false,
-                        "tram": false,
-                        "bus": true,
-                        "ferry": false,
-                        "express": false,
-                        "regional": true
-                    }
-                },
-                "departure": "2019-06-02T16:00:00.000+02:00",
-                "arrival": "2019-06-02T16:21:00.000+02:00",
-                "departureDelay": 0,
-                "arrivalDelay": 0,
-                "id": "1|35247|20|86|2062019",
-                "line": {
-                    "type": "line",
-                    "id": "s3",
-                    "fahrtNr": "16544",
-                    "name": "S3",
-                    "public": true,
-                    "class": 1,
-                    "productCode": 0,
-                    "mode": "train",
-                    "product": "suburban",
-                    "operator": {
-                        "type": "operator",
-                        "id": "s-bahn-berlin-gmbh",
-                        "name": "S-Bahn Berlin GmbH"
-                    },
-                    "symbol": "S",
-                    "nr": 3,
-                    "metro": false,
-                    "express": false,
-                    "night": false
-                },
-                "direction": "S Erkner",
-                "departurePlatform": "1",
-                "arrivalPlatform": "3",
-                "cycle": {
-                    "min": 600,
-                    "max": 600,
-                    "nr": 13
-                }
-            }
-        ],
-        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906021600$201906021621$      S3$$1$",
+        "refreshToken": "T$A=1@O=S Messe Süd (Berlin)@L=900025423@a=128@$A=1@O=S+U Alexanderplatz Bhf (Berlin)@L=900100003@a=128@$201906031530$201906031551$      S9$$1$",
         "cycle": {
             "min": 600
         }

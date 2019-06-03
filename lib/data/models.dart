@@ -9,9 +9,18 @@ import 'package:flutter/foundation.dart';
 
 import 'package:berlin_transport/data/data.dart';
 import 'package:berlin_transport/data/api.dart' as api;
+import 'package:berlin_transport/data/cache.dart' as cache;
 
 /// Journey data
 class JourneyNotifier with ChangeNotifier {
+  // Cache flag
+  var _useCache = false;
+  bool get useCache => _useCache;
+  set useCache(bool val) {
+    _useCache = val;
+    notifyListeners();
+  }
+
   // Depature data
   Place _departure;
   Place get departure => _departure;
@@ -35,22 +44,27 @@ class JourneyNotifier with ChangeNotifier {
   List<Journey> get journeys => _journeys;
   void _fetchJourneys() async {
     if (_departure != null && _arrival != null) {
-      _journeys = await api.journey(_departure.id, _arrival.id);
+      _journeys = await _loadJourneys(_departure.id, _arrival.id, useCache);
       notifyListeners();
     }
   }
+
+  // Search results data
+  List<Place> _placeSearchResults;
+  List<Place> get searchResults => _placeSearchResults;
+  Future<List<Place>> searchPlaces(String query) async {
+    _placeSearchResults = await _loadLocations(query, useCache, searchType);
+    return _placeSearchResults;
+  }
+
+  // Search type
+  SearchType searchType;
 }
+
+enum SearchType { origin, destination }
 
 /// Preferences
 class PrefsNotifier with ChangeNotifier {
-  // Offline
-  bool _offline = false;
-  bool get offline => _offline;
-  set offline(bool value) {
-    _offline = offline;
-    notifyListeners();
-  }
-
   // Locale
   static const Map<int, Locale> supportedLanguages = {
     0: const Locale('en'),
@@ -87,3 +101,20 @@ class AppStateNotifier with ChangeNotifier {
     notifyListeners();
   }
 }
+
+/// Manage loading locations
+Future<List<Place>> _loadLocations(
+  String query,
+  bool fromCache,
+  SearchType locationType,
+) =>
+    fromCache
+        ? (locationType == SearchType.origin
+            ? cache.locationOrigin
+            : cache.locationDestination)
+        : api.locations(query);
+
+/// Manage loading journeys
+Future<List<Journey>> _loadJourneys(String originId, String destinationId,
+        [bool fromCache = false]) =>
+    fromCache ? cache.journey : api.journey(originId, destinationId);

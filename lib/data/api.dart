@@ -68,7 +68,7 @@ Future<List<Place>> locations(String query) async {
   final url = urlPrefix +
       '/locations?query=$query' +
       '&stationLines=true' +
-      '&results=50';
+      '&results=10';
   final body = await _fetchData(url);
   return (json.decode(body) as List)
       .map<Place>((p) => Place.fromJson(p))

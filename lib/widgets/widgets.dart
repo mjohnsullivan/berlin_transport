@@ -82,19 +82,36 @@ class TransportIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     switch (type) {
-      case StopType.suburban:
-        return const Icon(Icons.train);
       case StopType.subway:
-        return const Icon(Icons.subway);
-      case StopType.tram:
-        return const Icon(Icons.tram);
+        return const Icon(Icons.directions_subway);
       case StopType.bus:
-
+        return const Icon(Icons.directions_bus);
       case StopType.ferry:
-        return const Icon(Icons.train);
-      case StopType.express:
+        return const Icon(Icons.directions_boat);
       case StopType.regional:
-        return const Icon(Icons.train);
+      case StopType.suburban:
+      case StopType.express:
+        return const Icon(Icons.directions_railway);
+      case StopType.suburban:
+      case StopType.tram:
+        return const Icon(Icons.directions_transit);
+      default:
+        return const Icon(Icons.directions_walk);
+    }
+  }
+}
+
+class ModeIcon extends StatelessWidget {
+  ModeIcon(this.type);
+  final Mode type;
+
+  @override
+  Widget build(BuildContext context) {
+    switch (type) {
+      case Mode.train:
+        return const Icon(Icons.directions_railway);
+      case Mode.bus:
+        return const Icon(Icons.directions_bus);
       default:
         return const Icon(Icons.directions_walk);
     }

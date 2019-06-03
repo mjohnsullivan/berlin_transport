@@ -52,7 +52,7 @@ class Leg extends StatelessWidget {
             Text('${prettyTime(leg.departureTime)}'),
             Padding(
               padding: const EdgeInsets.all(5),
-              child: TransportIcon(leg.line?.type),
+              child: ModeIcon(leg.line?.mode), //TransportIcon(leg.line?.type),
             ),
             Text('${prettyTime(leg.arrivalTime)}'),
           ],

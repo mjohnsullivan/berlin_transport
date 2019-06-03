@@ -90,7 +90,12 @@ class PlacesSearchDelegate extends SearchDelegate<Place> {
     return Container(
       color: theme.berlinBrightYellow,
       child: Center(
-        child: Text(AppLocalizations.of(context).searchMessage),
+        child: Opacity(
+            opacity: 0.2,
+            child: Icon(
+              Icons.directions_railway,
+              size: 200,
+            )),
       ),
     );
   }

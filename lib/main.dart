@@ -162,7 +162,13 @@ class JourneyPanel extends StatelessWidget {
           ? JourneyList(notifier.journeys)
           : Container(
               child: Center(
-                child: Text('No journey data yet'),
+                child: Opacity(
+                  opacity: 0.2,
+                  child: Icon(
+                    Icons.directions_subway,
+                    size: 200,
+                  ),
+                ),
               ),
             ),
     );

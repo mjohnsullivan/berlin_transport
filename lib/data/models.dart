@@ -72,7 +72,7 @@ class PrefsNotifier with ChangeNotifier {
   };
 
   // The selector value, which maps to supportedLanguages
-  int _localeSelector = 0;
+  int _localeSelector = 1;
   int get localeSelector => _localeSelector;
   set localeSelector(int val) {
     assert(val >= 0 && val <= 1);

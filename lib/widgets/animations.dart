@@ -8,11 +8,7 @@ import 'package:flare_flutter/flare_actor.dart';
 import 'dart:math' show Random;
 
 /// Types of transport animations
-enum TransportAnimationType {
-  bus,
-  train,
-  metro,
-}
+enum TransportAnimationType { bus, train, metro }
 
 /// Shows a specified transport animation
 class TransportAnimation extends StatefulWidget {
@@ -20,7 +16,7 @@ class TransportAnimation extends StatefulWidget {
   final TransportAnimationType type;
 
   @override
-  createState() => _TransportAnimationState();
+  _TransportAnimationState createState() => _TransportAnimationState();
 }
 
 class _TransportAnimationState extends State<TransportAnimation> {

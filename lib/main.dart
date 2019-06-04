@@ -2,9 +2,8 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:provider/provider.dart';
 
 import 'package:berlin_transport/widgets/widgets.dart';
@@ -19,6 +18,13 @@ import 'package:berlin_transport/data/models.dart';
 import 'package:berlin_transport/data/data.dart' as data;
 
 void main() => runApp(BerlinTransportApp());
+
+Widget hello() {
+  return Text(
+    'Hello World',
+    textDirection: TextDirection.ltr,
+  );
+}
 
 class BerlinTransportApp extends StatelessWidget {
   @override
@@ -40,8 +46,6 @@ class BerlinTransportApp extends StatelessWidget {
         onGenerateTitle: (context) => AppLocalizations.of(context).title,
         localizationsDelegates: [
           const AppLocalizationsDelegate(),
-          GlobalMaterialLocalizations.delegate,
-          GlobalWidgetsLocalizations.delegate,
         ],
         supportedLocales: [
           const Locale('en'),

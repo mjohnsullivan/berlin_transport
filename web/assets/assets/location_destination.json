@@ -1,0 +1,192 @@
+[
+    {
+        "type": "stop",
+        "id": "900000024106",
+        "name": "S Messe Nord/ICC",
+        "location": {
+            "type": "location",
+            "latitude": 52.506451,
+            "longitude": 13.283045
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000025423",
+        "name": "S Messe Süd",
+        "location": {
+            "type": "location",
+            "latitude": 52.498774,
+            "longitude": 13.270451
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000550318",
+        "name": "Leipzig, Messe",
+        "location": {
+            "type": "location",
+            "latitude": 51.396104,
+            "longitude": 12.389077
+        },
+        "products": {
+            "suburban": true,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": true,
+            "regional": true
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000360097",
+        "name": "Frankfurt (Oder), Messegelände",
+        "location": {
+            "type": "location",
+            "latitude": 52.347108,
+            "longitude": 14.499439
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": true,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000360011",
+        "name": "Frankfurt (Oder), Am Messegelände",
+        "location": {
+            "type": "location",
+            "latitude": 52.345688,
+            "longitude": 14.50165
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000360098",
+        "name": "Frankfurt (Oder), Messering",
+        "location": {
+            "type": "location",
+            "latitude": 52.339755,
+            "longitude": 14.502953
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000026204",
+        "name": "Messedamm/ZOB",
+        "location": {
+            "type": "location",
+            "latitude": 52.507,
+            "longitude": 13.280699
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000025552",
+        "name": "Messegelände/ICC",
+        "location": {
+            "type": "location",
+            "latitude": 52.504698,
+            "longitude": 13.279602
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000051151",
+        "name": "Messelstr.",
+        "location": {
+            "type": "location",
+            "latitude": 52.473389,
+            "longitude": 13.278551
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000025551",
+        "name": "Messegelände/Verwaltung",
+        "location": {
+            "type": "location",
+            "latitude": 52.501507,
+            "longitude": 13.274919
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    }
+]

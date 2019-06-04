@@ -1,0 +1,153 @@
+[
+    {
+        "type": "stop",
+        "id": "900000435800",
+        "name": "Bobosojce, dworn.",
+        "location": {
+            "type": "location",
+            "latitude": 51.581731,
+            "longitude": 14.1123
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": false,
+            "ferry": false,
+            "express": false,
+            "regional": true
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000215151",
+        "name": "Boberow",
+        "location": {
+            "type": "location",
+            "latitude": 53.145252,
+            "longitude": 11.615744
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000435557",
+        "name": "Boblitz, Lindenstr.",
+        "location": {
+            "type": "location",
+            "latitude": 51.843272,
+            "longitude": 13.978244
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000435549",
+        "name": "Boblitz, L49",
+        "location": {
+            "type": "location",
+            "latitude": 51.840764,
+            "longitude": 13.979691
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000435558",
+        "name": "Boblitz, Schulstr.",
+        "location": {
+            "type": "location",
+            "latitude": 51.841205,
+            "longitude": 13.982145
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000435552",
+        "name": "Boblitz, Str. nach Calau",
+        "location": {
+            "type": "location",
+            "latitude": 51.839101,
+            "longitude": 13.975637
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "stop",
+        "id": "900000435559",
+        "name": "Boblitz, Str. nach Lübbenau",
+        "location": {
+            "type": "location",
+            "latitude": 51.842966,
+            "longitude": 13.97597
+        },
+        "products": {
+            "suburban": false,
+            "subway": false,
+            "tram": false,
+            "bus": true,
+            "ferry": false,
+            "express": false,
+            "regional": false
+        }
+    },
+    {
+        "type": "location",
+        "latitude": 51.845429,
+        "longitude": 13.97312,
+        "address": "03222 Lübbenau/Spreewald, Boblitzer Chausseestr."
+    },
+    {
+        "type": "location",
+        "latitude": 51.847587,
+        "longitude": 13.972851,
+        "address": "03222 Lübbenau/Spreewald, Boblitzer Chausseestr."
+    },
+    {
+        "type": "location",
+        "latitude": 51.83991,
+        "longitude": 13.983044,
+        "address": "03222 Lübbenau/Spreewald, Boblitzer Lindenstr."
+    }
+]

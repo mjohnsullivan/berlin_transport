@@ -6,7 +6,7 @@
 
 import 'dart:convert';
 
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:flutter_web/services.dart' show rootBundle;
 
 import 'package:berlin_transport/data/data.dart';
 

@@ -6,7 +6,6 @@
 /// for api info
 
 import 'dart:convert';
-import 'dart:io';
 
 import 'package:http/http.dart' as http;
 
@@ -83,9 +82,8 @@ Future<String> _fetchData(String url) async {
 
   if (res.statusCode != 200) {
     print('Error ${res.statusCode}: $url');
-    throw HttpException(
-      'Invalid response ${res.statusCode}',
-      uri: Uri.parse(url),
+    throw Exception(
+      'Invalid response ${res.statusCode}: $url',
     );
   }
   return res.body;

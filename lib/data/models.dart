@@ -4,8 +4,8 @@
 
 /// Middleware that manages interactions between ui and api
 
-import 'dart:ui';
-import 'package:flutter/foundation.dart';
+import 'package:flutter_web_ui/ui.dart';
+import 'package:flutter_web/foundation.dart';
 
 import 'package:berlin_transport/data/data.dart';
 import 'package:berlin_transport/data/api.dart' as api;

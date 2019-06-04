@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-import 'package:flutter/material.dart';
+import 'package:flutter_web/material.dart';
 
 const berlinBrightYellow = Color(0xFFFFD300);
 const berlinDarkYellow = Color(0xFFFFB900);
@@ -28,7 +28,10 @@ final appTheme = ThemeData(
       fontSize: 36,
       fontWeight: FontWeight.bold,
     ),
-
+    body1: TextStyle(
+        //fontSize: 56,
+        //fontWeight: FontWeight.bold,
+        ),
     //headline: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
     //title: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
     //body1: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),

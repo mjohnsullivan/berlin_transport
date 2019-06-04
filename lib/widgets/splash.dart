@@ -22,13 +22,21 @@ class SplashScreen extends StatelessWidget {
             flex: 8,
             child: TransportAnimation(
               type: TransportAnimationType.bus,
+              fit: BoxFit.contain,
             ),
           ),
           Flexible(
             flex: 2,
             child: Consumer<AppStateNotifier>(
-              builder: (context, notifier, _) => FlatButton(
-                    child: Text(AppLocalizations.of(context).tapContinue),
+              builder: (context, notifier, _) => RaisedButton(
+                    color: berlinDarkYellow,
+                    elevation: 4,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(50)),
+                    child: Text(
+                      AppLocalizations.of(context).tapContinue,
+                      style: TextStyle(color: Colors.black54),
+                    ),
                     onPressed: () => notifier.hideSplash(),
                   ),
             ),

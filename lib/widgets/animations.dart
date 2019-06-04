@@ -11,15 +11,11 @@ import 'dart:math' show Random;
 enum TransportAnimationType { bus, train, metro }
 
 /// Shows a specified transport animation
-class TransportAnimation extends StatefulWidget {
-  TransportAnimation({Key key, @required this.type}) : super(key: key);
+class TransportAnimation extends StatelessWidget {
+  TransportAnimation({Key key, @required this.type, this.fit})
+      : super(key: key);
   final TransportAnimationType type;
-
-  @override
-  _TransportAnimationState createState() => _TransportAnimationState();
-}
-
-class _TransportAnimationState extends State<TransportAnimation> {
+  final BoxFit fit;
   static const _animationName = 'driving';
 
   String _animationAssetPath(TransportAnimationType type) {
@@ -36,9 +32,9 @@ class _TransportAnimationState extends State<TransportAnimation> {
   @override
   Widget build(BuildContext context) {
     return FlareActor(
-      _animationAssetPath(widget.type),
+      _animationAssetPath(type),
       alignment: Alignment.center,
-      fit: BoxFit.fitWidth,
+      fit: fit ?? BoxFit.fitWidth,
       animation: _animationName,
     );
   }

@@ -38,7 +38,7 @@ class Preferences extends StatelessWidget {
                         ),
                   ),
                 ),
-                LocalePref(),
+                // LocalePref(),
                 OfflinePref(),
                 SplashPref(),
               ],

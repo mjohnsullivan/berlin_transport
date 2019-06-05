@@ -34,7 +34,7 @@ packages:
     description:
       path: flare_dart
       ref: dev
-      resolved-ref: "396cd88df7638b86e55b4467364fa2c41cde1558"
+      resolved-ref: "6606b73bf4f7b87105a6febfbb5f2167cf8b8977"
       url: "git://github.com/2d-inc/Flare-Flutter.git"
     source: git
     version: "1.4.1"
@@ -42,8 +42,8 @@ packages:
     dependency: "direct main"
     description:
       path: flare_flutter
-      ref: dev
-      resolved-ref: "396cd88df7638b86e55b4467364fa2c41cde1558"
+      ref: "6606b73bf4f7b87105a6febfbb5f2167cf8b8977"
+      resolved-ref: "6606b73bf4f7b87105a6febfbb5f2167cf8b8977"
       url: "git://github.com/2d-inc/Flare-Flutter.git"
     source: git
     version: "1.5.1"

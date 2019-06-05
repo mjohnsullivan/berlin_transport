@@ -8,7 +8,7 @@ import 'package:flare_flutter/flare_actor.dart';
 import 'dart:math' show Random;
 
 /// Types of transport animations
-enum TransportAnimationType { bus, train, metro }
+enum TransportAnimationType { bus, train, metro, martin, matt }
 
 /// Shows a specified transport animation
 class TransportAnimation extends StatelessWidget {
@@ -24,8 +24,12 @@ class TransportAnimation extends StatelessWidget {
         return 'assets/flare/bus.flr';
       case TransportAnimationType.metro:
         return 'assets/flare/metro.flr';
-      default:
+      case TransportAnimationType.train:
         return 'assets/flare/train.flr';
+      case TransportAnimationType.martin:
+        return 'assets/flare/martin.flr';
+      default:
+        return 'assets/flare/matt.flr';
     }
   }
 
